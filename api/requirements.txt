@@ -1,0 +1,14 @@
+Django>=4.2
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+PyJWT
+Pillow
+python-dateutil
+
+# PostgreSQL support
+psycopg2-binary
+dj-database-url
+
+# Production server
+gunicorn

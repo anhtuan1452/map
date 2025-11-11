@@ -1,0 +1,62 @@
+# Environment variables (IMPORTANT: Never commit these!)
+.env
+.env.local
+.env.production
+.env.*.local
+.env.backup
+
+# SSL certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+
+# Cloudflare credentials
+cloudflared/credentials.json
+cloudflared/cert.pem
+cloudflared/config.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+db.sqlite3
+db.sqlite3-journal
+*.log
+/api/media/
+/api/staticfiles/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.vite/
+/web/dist/
+/web/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.backup
+*.bak
+sites_backup.json
+data_export*.json
+
+# Database volumes (only for local dev)
+api_db/
+
+# Docker
+.dockerignore

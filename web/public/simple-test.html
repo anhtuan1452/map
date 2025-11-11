@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple API Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f0f0f0; }
+        .box { background: white; padding: 20px; margin: 10px 0; border-radius: 5px; }
+        .success { color: green; }
+        .error { color: red; }
+        pre { background: #2d2d2d; color: #0f0; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔌 Simple API Connection Test</h1>
+    
+    <div class="box">
+        <h2>Test Configuration</h2>
+        <p><strong>API URL:</strong> <span id="apiUrl"></span></p>
+        <p><strong>Current Page:</strong> <span id="currentUrl"></span></p>
+        <p><strong>Browser:</strong> <span id="browser"></span></p>
+    </div>
+    
+    <div class="box">
+        <h2>Test 1: Basic Fetch</h2>
+        <button onclick="test1()">▶️ Run Test 1</button>
+        <div id="test1Result"></div>
+    </div>
+    
+    <div class="box">
+        <h2>Test 2: XMLHttpRequest</h2>
+        <button onclick="test2()">▶️ Run Test 2</button>
+        <div id="test2Result"></div>
+    </div>
+    
+    <div class="box">
+        <h2>Console Output</h2>
+        <pre id="console"></pre>
+    </div>
+    
+    <script>
+        const API_URL = 'http://localhost:8000';
+        let consoleOutput = '';
+        
+        function log(msg) {
+            console.log(msg);
+            consoleOutput += msg + '\n';
+            document.getElementById('console').textContent = consoleOutput;
+        }
+        
+        // Setup
+        document.getElementById('apiUrl').textContent = API_URL;
+        document.getElementById('currentUrl').textContent = window.location.href;
+        document.getElementById('browser').textContent = navigator.userAgent;
+        
+        // Test 1: Fetch API
+        async function test1() {
+            const result = document.getElementById('test1Result');
+            result.innerHTML = '<p>⏳ Testing with Fetch API...</p>';
+            log('=== Test 1: Fetch API ===');
+            
+            try {
+                log('Sending GET request to: ' + API_URL + '/api/heritage/sites/');
+                const response = await fetch(API_URL + '/api/heritage/sites/');
+                log('Response status: ' + response.status);
+                log('Response OK: ' + response.ok);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    log('Data received: ' + data.features.length + ' features');
+                    result.innerHTML = `<p class="success">✅ SUCCESS! Received ${data.features.length} heritage sites</p>`;
+                } else {
+                    log('Response not OK');
+                    result.innerHTML = `<p class="error">❌ Failed with status: ${response.status}</p>`;
+                }
+            } catch (error) {
+                log('ERROR: ' + error.message);
+                log('Error stack: ' + error.stack);
+                result.innerHTML = `<p class="error">❌ ERROR: ${error.message}</p>
+                    <p><strong>Nếu thấy lỗi này:</strong></p>
+                    <ul>
+                        <li><strong>CORS error:</strong> Mở F12 Console xem chi tiết</li>
+                        <li><strong>Network error:</strong> API không chạy hoặc blocked</li>
+                        <li><strong>Mixed content:</strong> HTTPS page call HTTP API</li>
+                    </ul>`;
+            }
+        }
+        
+        // Test 2: XMLHttpRequest
+        function test2() {
+            const result = document.getElementById('test2Result');
+            result.innerHTML = '<p>⏳ Testing with XMLHttpRequest...</p>';
+            log('=== Test 2: XMLHttpRequest ===');
+            
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', API_URL + '/api/heritage/sites/', true);
+            
+            xhr.onload = function() {
+                log('XHR status: ' + xhr.status);
+                if (xhr.status === 200) {
+                    const data = JSON.parse(xhr.responseText);
+                    log('Data received: ' + data.features.length + ' features');
+                    result.innerHTML = `<p class="success">✅ SUCCESS! Received ${data.features.length} heritage sites</p>`;
+                } else {
+                    log('XHR failed with status: ' + xhr.status);
+                    result.innerHTML = `<p class="error">❌ Failed with status: ${xhr.status}</p>`;
+                }
+            };
+            
+            xhr.onerror = function() {
+                log('XHR error occurred');
+                result.innerHTML = '<p class="error">❌ Network error</p>';
+            };
+            
+            xhr.send();
+        }
+        
+        // Auto-run on load
+        window.onload = function() {
+            log('Page loaded, auto-running tests...');
+            setTimeout(() => {
+                test1();
+                setTimeout(test2, 1000);
+            }, 500);
+        };
+    </script>
+</body>
+</html>

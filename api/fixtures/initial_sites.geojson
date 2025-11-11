@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "thanh_co_quang_tri",
+        "name": "Thành cổ Quảng Trị",
+        "summary": "Thành cổ Quảng Trị - Di tích lịch sử gắn với 81 ngày đêm chiến đấu anh dũng năm 1972.",
+        "history": "Thành cổ Quảng Trị được xây dựng từ thời nhà Nguyễn (1824-1945), là thành phố cổ quan trọng ở miền Trung. Trong chiến tranh Việt Nam, Thành cổ Quảng Trị đã chứng kiến trận chiến quyết liệt kéo dài 81 ngày đêm (từ tháng 6 đến tháng 9/1972), ghi dấu ấn sự hy sinh và quyết tâm của quân dân Quảng Trị.",
+        "dos": [
+          "Chụp ảnh lưu niệm không chạm vào hiện vật",
+          "Giữ gìn vệ sinh chung",
+          "Báo cáo hành vi xấu cho nhân viên quản lý"
+        ],
+        "donts": [
+          "Khắc tên lên hiện vật hoặc tường thành",
+          "Giẫm đạp lên thảm cỏ",
+          "Vứt rác và mang vật liệu cháy nổ"
+        ],
+        "legal_excerpt": "Theo Luật Di sản văn hóa 2001 và Nghị định 98/2010/NĐ-CP: Người nào cố ý làm hư hỏng di tích lịch sử-văn hóa sẽ bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự.",
+        "conservation_status": "critical",
+        "images": [],
+        "quiz": [
+          {
+            "id": "q1",
+            "question": "Thành cổ Quảng Trị nổi tiếng với trận chiến kéo dài bao nhiêu ngày đêm?",
+            "choices": ["56 ngày đêm","81 ngày đêm","100 ngày đêm"],
+            "correctIndex": 1,
+            "explanation": "Trận chiến Thành cổ Quảng Trị kéo dài 81 ngày đêm (từ tháng 6-9/1972), là một trong những trận chiến ác liệt nhất trong chiến tranh Việt Nam."
+          }
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [107.1854, 16.8197] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "song_ben_hai",
+        "name": "Sông Bến Hải",
+        "summary": "Sông Bến Hải - ranh giới tạm thời giữa hai miền Nam-Bắc theo Hiệp định Geneva 1954.",
+        "history": "Sông Bến Hải chảy qua tỉnh Quảng Trị, là ranh giới quân sự tạm thời theo Hiệp định Geneva (1954-1975). Sông đã trở thành biểu tượng của sự chia cắt đất nước và nỗi đau ly tán của hàng triệu gia đình Việt Nam.",
+        "dos": ["Tôn trọng người dân địa phương","Giữ khoảng cách an toàn khi tham quan"],
+        "donts": ["Không vứt rác xuống sông","Không lấn chiếm bờ sông"],
+        "legal_excerpt": "Quy định quản lý hành lang bảo vệ sông và di tích lịch sử ven sông theo Luật Tài nguyên nước 2012.",
+        "conservation_status": "watch",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [107.0398, 17.0405] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tuan_test",
+        "name": "test",
+        "summary": "Sông Bến Hải - ranh giới tạm thời giữa hai miền Nam-Bắc theo Hiệp định Geneva 1954.",
+        "history": "Sông Bến Hải chảy qua tỉnh Quảng Trị, là ranh giới quân sự tạm thời theo Hiệp định Geneva (1954-1975). Sông đã trở thành biểu tượng của sự chia cắt đất nước và nỗi đau ly tán của hàng triệu gia đình Việt Nam.",
+        "dos": ["Tôn trọng người dân địa phương","Giữ khoảng cách an toàn khi tham quan"],
+        "donts": ["Không vứt rác xuống sông","Không lấn chiếm bờ sông"],
+        "legal_excerpt": "Quy định quản lý hành lang bảo vệ sông và di tích lịch sử ven sông theo Luật Tài nguyên nước 2012.",
+        "conservation_status": "watch",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [108.23288229543745,16.052167037654588] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cau_hien_luong",
+        "name": "Cầu Hiền Lương",
+        "summary": "Cầu Hiền Lương bắc qua sông Bến Hải - biểu tượng phân chia đất nước (1954-1975).",
+        "history": "Cầu Hiền Lương được xây dựng năm 1928, bắc qua sông Bến Hải nối liền Bắc-Nam. Từ 1954-1975, cầu trở thành ranh giới quân sự tạm thời. Nhiều gia đình đứng hai bên bờ sông nhìn nhau mà không thể gặp gỡ. Cầu Hiền Lương là biểu tượng của nỗi đau chia cắt và khát vọng thống nhất đất nước.",
+        "dos": ["Tham quan có trật tự","Tôn trọng biển cảnh báo"],
+        "donts": ["Không cản trở giao thông","Không bốc xếp vật liệu trên cầu"],
+        "legal_excerpt": "Quy định bảo vệ cầu lịch sử và an toàn giao thông theo Nghị định 185/2013/NĐ-CP về quản lý công trình giao thông.",
+        "conservation_status": "watch",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [107.0398, 17.0408] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dia_dao_vinh_moc",
+        "name": "Địa đạo Vịnh Mốc",
+        "summary": "Hệ thống địa đạo Vịnh Mốc - nơi trú ẩn của hơn 300 dân thường trong 6 năm chiến tranh ác liệt.",
+        "history": "Địa đạo Vịnh Mốc nằm ở xã Vịnh Linh, Quảng Trị, được đào từ 1966-1967 với tổng chiều dài 2.800m, sâu 12-23m dưới mặt đất. Đây là nơi trú ẩn của hơn 300 dân làng trong 6 năm chiến tranh. Trong lòng đất, người dân sinh sống, làm việc, thậm chí sinh con (17 em bé chào đời trong địa đạo). Địa đạo Vịnh Mốc là minh chứng về ý chí kiên cường của nhân dân Việt Nam.",
+        "dos": ["Đi theo hướng dẫn viên","Không mang đồ dễ cháy vào khu vực"],
+        "donts": ["Không leo trèo cấu trúc yếu","Không mang vật dễ cháy"],
+        "legal_excerpt": "Quy định về bảo tồn di tích và đảm bảo an toàn cho du khách theo Nghị định 98/2010/NĐ-CP.",
+        "conservation_status": "good",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [107.0513, 17.2050] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "quang_binh_quan",
+        "name": "Quảng Bình Quan",
+        "summary": "Quảng Bình Quan - cửa ải lịch sử ngăn cách hai tỉnh Quảng Bình và Quảng Trị.",
+        "history": "Quảng Bình Quan là cửa ải quan trọng trên Quốc lộ 1A, ranh giới giữa hai tỉnh Quảng Bình và Quảng Trị. Từ thời phong kiến, đây là cửa ngõ chiến lược kiểm soát giao thông Bắc-Nam. Trong chiến tranh, khu vực này chứng kiến nhiều trận đánh ác liệt. Ngày nay, Quảng Bình Quan vẫn giữ vẻ hùng vĩ và gợi nhớ về lịch sử dựng nước và giữ nước.",
+        "dos": ["Giữ vệ sinh","Tuân thủ biển báo"],
+        "donts": ["Không chặt phá cây","Không xâm phạm khu vực bảo tồn"],
+        "legal_excerpt": "Quy định địa phương về bảo vệ di tích lịch sử theo Luật Di sản văn hóa 2001.",
+        "conservation_status": "good",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [106.8347, 17.4714] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nga_ba_dong_loc",
+        "name": "Ngã ba Đồng Lộc",
+        "summary": "Ngã ba Đồng Lộc (Hà Tĩnh) - nơi ghi dấu sự hy sinh của các cô gái thanh niên xung phong.",
+        "history": "Ngã ba Đồng Lộc nằm ở huyện Can Lộc, Hà Tĩnh (không phải Quảng Trị, nhưng gắn liền với hành trình chi viện miền Nam). Trong chiến tranh, đây là nơi tập kết và phân luồng vận chuyển vũ khí, lương thực vào miền Nam. Ngã ba Đồng Lộc là biểu tượng của sự hy sinh anh dũng của các cô gái thanh niên xung phong đã ngã xuống dưới hỏa lực dữ dội của địch.",
+        "dos": ["Thăm viếng với lòng thành","Ghi nhớ lịch sử"],
+        "donts": ["Không mang vật cấm","Không làm mất trật tự"],
+        "legal_excerpt": "Quy định về bảo vệ khu tưởng niệm và xử lý vi phạm theo Nghị định 98/2010/NĐ-CP.",
+        "conservation_status": "critical",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [105.7201, 18.4308] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ben_do",
+        "name": "Bến đò sông Bến Hải",
+        "summary": "Bến đò Bến Hải - điểm giao thông truyền thống dọc sông, chứng nhân của sự chia cắt.",
+        "history": "Bến đò sông Bến Hải là nơi người dân hai bên bờ sông đi lại bằng thuyền đò trong thời bình. Từ 1954-1975, bến đò trở thành ranh giới ngăn cách gia đình, người thân. Bến đò chứng kiến bao câu chuyện ly tán đau thương và niềm mong mỏi thống nhất đất nước.",
+        "dos": ["Tôn trọng người làm nghề đò","Giữ gìn vệ sinh"],
+        "donts": ["Không chiếm bến","Không làm mất trật tự"],
+        "legal_excerpt": "Quy định quản lý bến bãi và di tích ven sông theo Nghị định 34/2016/NĐ-CP.",
+        "conservation_status": "watch",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [107.0395, 17.0402] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tuong_dai_me_suot",
+        "name": "Tượng đài Mẹ Suốt",
+        "summary": "Tượng đài Mẹ Suốt - tưởng nhớ bà Mẹ Việt Nam anh hùng Nguyễn Thị Suốt, mất 9 con trong kháng chiến.",
+        "history": "Bà Nguyễn Thị Suốt là Mẹ Việt Nam anh hùng, ở xã Triệu Phước, Triệu Phong, Quảng Trị. Bà đã hiến cả 9 người con cho sự nghiệp giải phóng dân tộc. Tượng đài được dựng để tưởng nhớ lòng yêu nước, sự hy sinh cao cả của các Bà mẹ Việt Nam anh hùng, là biểu tượng của nỗi đau mất mát và niềm tự hào dân tộc.",
+        "dos": ["Thắp hương theo quy định","Giữ gìn trật tự"],
+        "donts": ["Không leo lên tượng","Không gây ồn ào"],
+        "legal_excerpt": "Quy định bảo vệ công trình tượng đài và khuôn viên theo Nghị định 98/2010/NĐ-CP.",
+        "conservation_status": "good",
+        "images": [],
+        "quiz": []
+      },
+      "geometry": { "type": "Point", "coordinates": [107.1447, 16.7853] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "quan_dao_hoang_sa",
+        "name": "Quần đảo Hoàng Sa",
+        "summary": "Quần đảo Hoàng Sa - Lãnh thổ thiêng liêng của Việt Nam, bị Trung Quốc chiếm đóng trái phép từ 1974.",
+        "history": "Quần đảo Hoàng Sa (Paracel Islands) nằm ở Biển Đông, cách bờ biển Đà Nẵng khoảng 120 hải lý về phía Đông. Việt Nam có chủ quyền lịch sử và pháp lý đối với Hoàng Sa từ thế kỷ 17 (triều Nguyễn). Tháng 1/1974, Trung Quốc dùng vũ lực chiếm đóng toàn bộ quần đảo. Việt Nam khẳng định chủ quyền bằng bằng chứng lịch sử, tư liệu, bản đồ cổ và luật pháp quốc tế.",
+        "dos": [
+          "Tìm hiểu lịch sử và khẳng định chủ quyền Việt Nam",
+          "Tuyên truyền về Hoàng Sa - Trường Sa thuộc Việt Nam",
+          "Ủng hộ các hoạt động bảo vệ chủ quyền biển đảo"
+        ],
+        "donts": [
+          "Không công nhận hành vi chiếm đóng trái phép",
+          "Không sử dụng tên gọi sai lệch về chủ quyền",
+          "Không làm tổn hại đến vị thế pháp lý của Việt Nam"
+        ],
+        "legal_excerpt": "Theo Luật Biển Việt Nam 2012 và Công ước Liên Hợp Quốc về Luật Biển (UNCLOS 1982): Hoàng Sa và Trường Sa là lãnh thổ không thể tách rời của Việt Nam. Mọi hành vi xâm phạm chủ quyền đều bị lên án và phản đối.",
+        "conservation_status": "critical",
+        "images": [],
+        "quiz": [
+          {
+            "id": "hs1",
+            "question": "Quần đảo Hoàng Sa bị Trung Quốc chiếm đóng trái phép vào năm nào?",
+            "choices": ["1954","1974","1988"],
+            "correctIndex": 1,
+            "explanation": "Tháng 1/1974, Trung Quốc dùng vũ lực tấn công và chiếm toàn bộ quần đảo Hoàng Sa. Việt Nam kiên quyết bảo vệ chủ quyền bằng các biện pháp ngoại giao và pháp lý quốc tế."
+          }
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [111.9050, 16.5000] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "quan_dao_truong_sa",
+        "name": "Quần đảo Trường Sa",
+        "summary": "Quần đảo Trường Sa - Lãnh thổ thiêng liêng của Việt Nam, nơi các chiến sĩ hải quân kiên cường bảo vệ chủ quyền biển đảo.",
+        "history": "Quần đảo Trường Sa (Spratly Islands) nằm ở phía Nam Biển Đông, gồm hơn 100 đảo, bãi, đá ngầm. Việt Nam có chủ quyền lịch sử đối với Trường Sa từ thế kỷ 17. Từ năm 1975, Việt Nam quản lý và bảo vệ một số đảo, đá, bãi thuộc quần đảo. Các chiến sĩ Hải quân Việt Nam đã và đang kiên cường bảo vệ chủ quyền biển đảo thiêng liêng. Trận hải chiến Gạc Ma (14/3/1988) là minh chứng cho tinh thần bất khuất của người lính biển Việt Nam.",
+        "dos": [
+          "Tìm hiểu và ghi nhớ lịch sử chủ quyền Trường Sa",
+          "Tôn vinh các anh hùng liệt sĩ bảo vệ biển đảo",
+          "Tuyên truyền chủ quyền Việt Nam trên Trường Sa"
+        ],
+        "donts": [
+          "Không công nhận yêu sách phi lý của nước ngoài",
+          "Không sử dụng bản đồ sai lệch về chủ quyền",
+          "Không làm tổn hại danh dự các anh hùng liệt sĩ"
+        ],
+        "legal_excerpt": "Theo Luật Biển Việt Nam 2012 và UNCLOS 1982: Trường Sa là lãnh thổ của Việt Nam. Việt Nam kiên quyết bảo vệ chủ quyền bằng biện pháp hòa bình, phù hợp luật pháp quốc tế.",
+        "conservation_status": "critical",
+        "images": [],
+        "quiz": [
+          {
+            "id": "ts1",
+            "question": "Trận hải chiến Gạc Ma bảo vệ Trường Sa diễn ra vào ngày nào?",
+            "choices": ["14/3/1975","14/3/1988","14/3/1995"],
+            "correctIndex": 1,
+            "explanation": "Ngày 14/3/1988, quân Trung Quốc tấn công đảo Gạc Ma thuộc quần đảo Trường Sa. 64 chiến sĩ Hải quân Việt Nam hy sinh anh dũng, bảo vệ chủ quyền thiêng liêng của Tổ quốc."
+          }
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [114.2000, 9.8500] }
+    }
+  ]
+}

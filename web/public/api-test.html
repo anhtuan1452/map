@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live API Test</title>
+    <meta charset="UTF-8">
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background: #f8f9fa;
+        }
+        .success { color: #28a745; font-weight: bold; }
+        .error { color: #dc3545; font-weight: bold; }
+        .info { color: #17a2b8; }
+        pre { 
+            background: #2d2d2d; 
+            color: #f8f8f2;
+            padding: 15px; 
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover { background: #0056b3; }
+        .spinner { display: inline-block; margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Live API Connection Test</h1>
+        <p>Testing connection from browser to Django backend...</p>
+        
+        <button onclick="runAllTests()">▶️ Run All Tests</button>
+        
+        <div id="results"></div>
+    </div>
+    
+    <script>
+        const API_URL = 'http://localhost:8000';
+        const results = document.getElementById('results');
+        
+        function clearResults() {
+            results.innerHTML = '';
+        }
+        
+        function addSection(title) {
+            const section = document.createElement('div');
+            section.className = 'test-section';
+            section.innerHTML = `<h2>${title}</h2>`;
+            results.appendChild(section);
+            return section;
+        }
+        
+        function addLog(section, message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = type;
+            div.innerHTML = message;
+            section.appendChild(div);
+        }
+        
+        async function test1_BasicFetch() {
+            const section = addSection('Test 1: Basic Fetch');
+            
+            try {
+                addLog(section, '📡 Fetching: GET /api/heritage/sites/');
+                
+                const response = await fetch(`${API_URL}/api/heritage/sites/`);
+                
+                addLog(section, `Status: ${response.status} ${response.statusText}`, 
+                    response.ok ? 'success' : 'error');
+                
+                // Show headers
+                const headers = {};
+                response.headers.forEach((value, key) => {
+                    headers[key] = value;
+                });
+                addLog(section, `<details><summary>Response Headers</summary><pre>${JSON.stringify(headers, null, 2)}</pre></details>`);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    addLog(section, `✅ SUCCESS: Received ${data.features?.length || 0} heritage sites`, 'success');
+                    addLog(section, `<details><summary>Sample Data</summary><pre>${JSON.stringify(data.features[0], null, 2)}</pre></details>`);
+                    return true;
+                } else {
+                    addLog(section, `❌ FAILED: ${response.statusText}`, 'error');
+                    return false;
+                }
+            } catch (error) {
+                addLog(section, `❌ ERROR: ${error.message}`, 'error');
+                addLog(section, `<p>Possible causes:</p>
+                    <ul>
+                        <li><strong>CORS blocked:</strong> Check browser console for CORS errors</li>
+                        <li><strong>Network error:</strong> API might not be running</li>
+                        <li><strong>Wrong URL:</strong> Verify API is at ${API_URL}</li>
+                    </ul>`, 'error');
+                return false;
+            }
+        }
+        
+        async function test2_Login() {
+            const section = addSection('Test 2: Login API');
+            
+            try {
+                addLog(section, '🔐 Testing: POST /api/heritage/login/');
+                
+                const response = await fetch(`${API_URL}/api/heritage/login/`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        username: 'test',
+                        password: 'test'
+                    })
+                });
+                
+                addLog(section, `Status: ${response.status} ${response.statusText}`, 
+                    response.status === 401 ? 'info' : response.ok ? 'success' : 'error');
+                
+                if (response.status === 401) {
+                    addLog(section, '✅ API is working (expected 401 for wrong credentials)', 'success');
+                    return true;
+                } else if (response.ok) {
+                    const data = await response.json();
+                    addLog(section, `✅ Login successful!`, 'success');
+                    addLog(section, `<pre>${JSON.stringify(data, null, 2)}</pre>`);
+                    return true;
+                } else {
+                    addLog(section, `❌ Unexpected response`, 'error');
+                    return false;
+                }
+            } catch (error) {
+                addLog(section, `❌ ERROR: ${error.message}`, 'error');
+                return false;
+            }
+        }
+        
+        async function test3_UserProfile() {
+            const section = addSection('Test 3: User Profile API');
+            
+            try {
+                addLog(section, '👤 Testing: GET /api/heritage/user/profile/?user_name=test');
+                
+                const response = await fetch(`${API_URL}/api/heritage/user/profile/?user_name=test`);
+                
+                addLog(section, `Status: ${response.status} ${response.statusText}`, 
+                    response.ok ? 'success' : 'error');
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    addLog(section, `✅ SUCCESS: Got profile data`, 'success');
+                    addLog(section, `<pre>${JSON.stringify(data, null, 2)}</pre>`);
+                    return true;
+                } else {
+                    addLog(section, `❌ FAILED`, 'error');
+                    return false;
+                }
+            } catch (error) {
+                addLog(section, `❌ ERROR: ${error.message}`, 'error');
+                return false;
+            }
+        }
+        
+        async function runAllTests() {
+            clearResults();
+            
+            const summarySection = addSection('📊 Test Summary');
+            addLog(summarySection, `API URL: <strong>${API_URL}</strong>`, 'info');
+            addLog(summarySection, `Current Page: <strong>${window.location.href}</strong>`, 'info');
+            addLog(summarySection, '<br><hr><br>');
+            
+            const results = {
+                test1: await test1_BasicFetch(),
+                test2: await test2_Login(),
+                test3: await test3_UserProfile()
+            };
+            
+            addLog(summarySection, '<br><h3>Results:</h3>');
+            addLog(summarySection, `Test 1 (Sites API): ${results.test1 ? '✅ PASS' : '❌ FAIL'}`, results.test1 ? 'success' : 'error');
+            addLog(summarySection, `Test 2 (Login API): ${results.test2 ? '✅ PASS' : '❌ FAIL'}`, results.test2 ? 'success' : 'error');
+            addLog(summarySection, `Test 3 (Profile API): ${results.test3 ? '✅ PASS' : '❌ FAIL'}`, results.test3 ? 'success' : 'error');
+            
+            const allPass = Object.values(results).every(r => r);
+            if (allPass) {
+                addLog(summarySection, '<br><h2 style="color: #28a745;">🎉 ALL TESTS PASSED! Frontend can connect to backend!</h2>', 'success');
+            } else {
+                addLog(summarySection, '<br><h2 style="color: #dc3545;">⚠️ SOME TESTS FAILED. Check details above.</h2>', 'error');
+            }
+        }
+        
+        // Auto-run on load
+        window.addEventListener('load', () => {
+            setTimeout(runAllTests, 500);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+/* Custom styles for heritage map */
+
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.island-label {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 2px solid #d00 !important;
+  border-radius: 4px !important;
+  padding: 4px 8px !important;
+  font-family: 'Arial', sans-serif !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+  white-space: nowrap !important;
+}
+
+.island-label::before {
+  display: none !important;
+}
+
+.leaflet-tooltip-top.island-label::before {
+  display: none !important;
+}
+
+/* Increase z-index for popup to appear above controls */
+.leaflet-popup {
+  z-index: 2000 !important;
+}
+
+.leaflet-popup-pane {
+  z-index: 2000 !important;
+}

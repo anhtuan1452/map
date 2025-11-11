@@ -33,7 +33,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('user_name', models.CharField(help_text='Tên người dùng (tourist/student)', max_length=200)),
-                ('content', modeldocker-compose downs.TextField(help_text='Nội dung bình luận')),
+                ('content', models.TextField(help_text='Nội dung bình luận')),
                 ('images', models.JSONField(blank=True, default=list, help_text='Danh sách URLs hình ảnh (tối đa 3)')),
                 ('created_at', models.DateTimeField(auto_now_add=True, db_index=True)),
                 ('updated_at', models.DateTimeField(auto_now=True)),

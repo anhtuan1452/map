@@ -15,7 +15,7 @@ services:
     networks:
       - heritage_network
     ports:
-      - "5432:5432"
+      - "5433:5433"
 
   # Django API
   api:
@@ -52,7 +52,7 @@ services:
     depends_on:
       - db
     ports:
-      - "8000:8000"
+      - "8003:8003"
 
   # React Frontend (built for production)
   web:

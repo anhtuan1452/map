@@ -15,7 +15,7 @@ services:
     networks:
       - heritage_network
     ports:
-      - "5433:5433"
+      - "5432:5432"
 
   # Django API
   api:
@@ -33,7 +33,6 @@ services:
     volumes:
       - ./api:/app
       - media_data:/app/media
-      - static_data:/app/staticfiles
     environment:
       - DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY}
       - DEBUG=${DEBUG:-False}

@@ -93,6 +93,7 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
@@ -110,6 +111,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
     'https://fe.khoatkth-dhktdn.click',
+    'http://14.225.255.214:5173',
     'https://api.khoatkth-dhktdn.click',
 ]
 # Add from env if needed

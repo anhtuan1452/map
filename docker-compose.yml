@@ -21,7 +21,6 @@ services:
     volumes:
       - ./api:/app  # Mount source code for hot reload
       - api_db:/app/db  # SQLite database volume
-      - api_media:/app/media  # Persist uploaded media files (avatars, etc.)
     ports:
       - 8000:8000
     env_file:
@@ -68,4 +67,3 @@ services:
 volumes:
   api_db:  # SQLite database (for migration)
   postgres_data:  # PostgreSQL data
-  api_media:  # Named volume for media files (avatars, images)

@@ -81,7 +81,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': '/app/db/db.sqlite3',  # Maps to api_db volume with ~60 users
+            'NAME': BASE_DIR / 'db' / 'db.sqlite3',  # Local path
         }
     }
 

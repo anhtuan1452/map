@@ -13,11 +13,12 @@ export default defineConfig({
     },
     hmr: {
       protocol: 'wss',   // Use secure WebSocket for HTTPS domain
-      host: 'fe.khoatkth-dhktdn.click',
+      host: 'lichsuquetoi.click',
       clientPort: 443    // HTTPS port
     },
     allowedHosts: [
       'fe.khoatkth-dhktdn.click',
+      'lichsuquetoi.click',
       'localhost',
       '127.0.0.1'
     ],

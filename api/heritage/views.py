@@ -386,7 +386,7 @@ class QuizAttemptViewSet(viewsets.ReadOnlyModelViewSet):
             correct_answers=Count('id', filter=Q(is_correct=True)),
             total_time=Sum('time_taken'),
             total_xp=Sum('xp_earned')
-        ).order_by('-total_xp', '-correct_answers', 'total_time')
+        ).order_by('-total_questions', '-correct_answers', 'total_time')
         
         # Thêm thứ hạng
         ranked_leaderboard = []

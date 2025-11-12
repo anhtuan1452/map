@@ -134,6 +134,7 @@ class QuizBattleParticipant(models.Model):
     user_name = models.CharField(max_length=200)
     score = models.IntegerField(default=0, help_text="Tổng điểm")
     correct_answers = models.IntegerField(default=0, help_text="Số câu đúng")
+    total_answered = models.IntegerField(default=0, help_text="Tổng số câu đã trả lời")
     time_completed = models.IntegerField(null=True, blank=True, help_text="Tổng thời gian (giây)")
     answers = models.JSONField(default=dict, help_text="Quiz ID -> {answer, is_correct, time_taken}")
     rank = models.IntegerField(null=True, blank=True, help_text="Hạng (1-4)")
@@ -142,7 +143,11 @@ class QuizBattleParticipant(models.Model):
     
     class Meta:
         unique_together = ('battle', 'user_name')
-        ordering = ['-score', 'time_completed']
+        ordering = ['-total_answered', '-correct_answers', 'time_completed']
+    
+    def save(self, *args, **kwargs):
+        self.total_answered = len(self.answers) if self.answers else 0
+        super().save(*args, **kwargs)
     
     def __str__(self):
         return f"{self.user_name} - Battle {self.battle.id} (Rank {self.rank})"
@@ -232,6 +237,11 @@ class UserProfile(models.Model):
         
         self.level = new_level
         super().save(*args, **kwargs)
+    
+    def add_xp(self, xp_amount):
+        """Thêm XP và tự động cập nhật level"""
+        self.total_xp += xp_amount
+        self.save()  # This will trigger level calculation in save()
 
 
 class Achievement(models.Model):

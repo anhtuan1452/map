@@ -153,33 +153,6 @@ class QuizBattleParticipant(models.Model):
         return f"{self.user_name} - Battle {self.battle.id} (Rank {self.rank})"
 
 
-class UserActivityLog(models.Model):
-    ip_address = models.GenericIPAddressField(help_text="IP address của người dùng")
-    user_agent = models.TextField(blank=True, help_text="User agent string từ browser")
-    path = models.CharField(max_length=500, help_text="URL path được truy cập")
-    method = models.CharField(max_length=10, help_text="HTTP method (GET, POST, etc.)")
-    status_code = models.IntegerField(help_text="HTTP status code trả về")
-    response_time = models.FloatField(help_text="Thời gian xử lý request (giây)")
-    user_name = models.CharField(max_length=200, blank=True, help_text="Tên người dùng nếu đã đăng nhập")
-    session_id = models.CharField(max_length=100, blank=True, help_text="Session ID")
-    referrer = models.URLField(blank=True, help_text="URL referrer")
-    country = models.CharField(max_length=100, blank=True, help_text="Quốc gia (từ IP geolocation)")
-    city = models.CharField(max_length=100, blank=True, help_text="Thành phố")
-    user_agent_parsed = models.JSONField(default=dict, blank=True, help_text="Thông tin phân tích user agent")
-    created_at = models.DateTimeField(auto_now_add=True, db_index=True)
-    
-    class Meta:
-        ordering = ['-created_at']
-        indexes = [
-            models.Index(fields=['ip_address', 'created_at']),
-            models.Index(fields=['path', 'created_at']),
-            models.Index(fields=['user_name', 'created_at']),
-        ]
-    
-    def __str__(self):
-        return f"{self.ip_address} - {self.path} - {self.created_at}"
-
-
 class UserProfile(models.Model):
     user_name = models.CharField(max_length=200, unique=True, help_text="Tên người dùng")
     avatar = models.ImageField(upload_to='avatars/', blank=True, null=True, help_text="Ảnh đại diện")

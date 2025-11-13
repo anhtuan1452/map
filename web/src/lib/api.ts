@@ -39,7 +39,7 @@ export function getApiUrl() {
 
     const protocol = window.location.protocol;
     const port = window.location.port;
-    return `${protocol}//${hostname}${port ? ':' + port : ''}`;
+    return `${protocol}//api.${hostname}${port ? ':' + port : ''}`;
   }
 
   return '';

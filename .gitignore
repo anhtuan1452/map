@@ -53,8 +53,9 @@ Thumbs.db
 *.backup
 *.bak
 sites_backup.json
-data_export*.json
-
+#data_export*.json
+vite.config*.js
+.gitignore
 # Database volumes (only for local dev)
 api_db/
 

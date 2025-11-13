@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { User, Trophy, Star, Award, Camera, Edit3, X, Crown, Zap, Target, MapPin, Clock } from 'lucide-react';
-import { fetchSites, checkQuizAttempts, getQuizzesBySite, getApiUrl, updateEmail, changePassword, getUserProfile, getXPLeaderboard, getAchievementsList, updateUserProfile, updateSchoolClass } from '../services/api';
+import { fetchSites, checkQuizAttempts, getQuizzesBySite, getApiUrl, updateEmail, changePassword, getUserProfile, getXPLeaderboard, getAchievementsList, updateUserProfile, updateSchoolClass, uploadAvatar } from '../services/api';
 
 interface UserProfile {
   user_name: string;
@@ -136,6 +136,18 @@ export const UserProfile: React.FC<UserProfileProps> = ({ userName, onClose }) =
     if (!profile) return;
 
     try {
+      // If only avatar is being uploaded, use dedicated uploadAvatar function
+      if (selectedAvatar && !editForm.display_name && !editForm.bio) {
+        const result = await uploadAvatar(userName, selectedAvatar);
+        // Reload full profile data to get updated avatar URL
+        await loadData();
+        setEditing(false);
+        setSelectedAvatar(null);
+        setAvatarPreview(null);
+        return;
+      }
+
+      // For general profile updates (with or without avatar)
       const formData = new FormData();
       formData.append('user_name', userName);
       formData.append('display_name', editForm.display_name);

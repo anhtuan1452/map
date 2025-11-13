@@ -39,6 +39,24 @@ export function getApiUrl() {
 
     const protocol = window.location.protocol;
     const port = window.location.port;
+    return `${protocol}//${hostname}${port ? ':' + port : ''}`;
+  }
+
+  return '';
+}
+export function getApiUrlAvt() {
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname;
+    if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      return ''; // Use Vite proxy
+    }
+
+    if (hostname === 'fe.khoatkth-dhktdn.click') {
+      return 'https://api.khoatkth-dhktdn.click';
+    }
+
+    const protocol = window.location.protocol;
+    const port = window.location.port;
     return `${protocol}//api.${hostname}${port ? ':' + port : ''}`;
   }
 

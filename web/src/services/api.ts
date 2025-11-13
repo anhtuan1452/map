@@ -186,6 +186,17 @@ export async function updateUserProfile(userName: string, profileData: any) {
   return res.data;
 }
 
+export async function uploadAvatar(userName: string, avatarFile: File) {
+  const formData = new FormData();
+  formData.append('user_name', userName);
+  formData.append('avatar', avatarFile);
+  
+  const res = await api.post('/api/heritage/user/profile/', formData, {
+    headers: { 'Content-Type': 'multipart/form-data' }
+  });
+  return res.data;
+}
+
 export async function getAchievementsList() {
   const res = await api.get('/api/heritage/achievements/');
   return res.data;

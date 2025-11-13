@@ -6,224 +6,400 @@
       "properties": {
         "id": "thanh_co_quang_tri",
         "name": "Thành cổ Quảng Trị",
-        "summary": "Thành cổ Quảng Trị - Di tích lịch sử gắn với 81 ngày đêm chiến đấu anh dũng năm 1972.",
-        "history": "Thành cổ Quảng Trị được xây dựng từ thời nhà Nguyễn (1824-1945), là thành phố cổ quan trọng ở miền Trung. Trong chiến tranh Việt Nam, Thành cổ Quảng Trị đã chứng kiến trận chiến quyết liệt kéo dài 81 ngày đêm (từ tháng 6 đến tháng 9/1972), ghi dấu ấn sự hy sinh và quyết tâm của quân dân Quảng Trị.",
+        "summary": "Thành cổ Quảng Trị – Di tích lịch sử gắn với 81 ngày đêm chiến đấu anh dũng năm 1972.",
+        "history": "Thành cổ Quảng Trị được xây dựng từ thời nhà Nguyễn (1824–1945), là thành phố cổ quan trọng ở miền Trung. Trong Chiến tranh Việt Nam, Thành cổ Quảng Trị đã chứng kiến trận chiến quyết liệt kéo dài 81 ngày đêm (từ tháng 6 đến tháng 9 năm 1972), ghi dấu ấn sự hy sinh và quyết tâm của quân dân Quảng Trị.",
         "dos": [
-          "Chụp ảnh lưu niệm không chạm vào hiện vật",
-          "Giữ gìn vệ sinh chung",
-          "Báo cáo hành vi xấu cho nhân viên quản lý"
+          "Chụp ảnh lưu niệm không chạm vào hiện vật.",
+          "Giữ gìn vệ sinh chung.",
+          "Báo cáo hành vi xấu cho nhân viên quản lý."
         ],
         "donts": [
-          "Khắc tên lên hiện vật hoặc tường thành",
-          "Giẫm đạp lên thảm cỏ",
-          "Vứt rác và mang vật liệu cháy nổ"
+          "Khắc tên lên hiện vật hoặc tường thành.",
+          "Giẫm đạp lên thảm cỏ.",
+          "Vứt rác và mang vật liệu cháy nổ."
         ],
-        "legal_excerpt": "Theo Luật Di sản văn hóa 2001 và Nghị định 98/2010/NĐ-CP: Người nào cố ý làm hư hỏng di tích lịch sử-văn hóa sẽ bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự.",
-        "conservation_status": "critical",
+        "legal_excerpt": "Theo Luật Di sản văn hóa 2001 và Nghị định 98/2010/NĐ-CP: Người nào cố ý làm hư hỏng di tích lịch sử – văn hóa sẽ bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự.",
+        "conservation_status": "good",
         "images": [],
         "quiz": [
           {
             "id": "q1",
-            "question": "Thành cổ Quảng Trị nổi tiếng với trận chiến kéo dài bao nhiêu ngày đêm?",
-            "choices": ["56 ngày đêm","81 ngày đêm","100 ngày đêm"],
+            "question": "Thành cổ Quảng Trị nổi tiếng với trận chiến kĂ©o dài bao nhiều ngày đêm?",
+            "choices": [
+              "56 ngày đêm",
+              "81 ngày đêm",
+              "100 ngày đêm"
+            ],
             "correctIndex": 1,
-            "explanation": "Trận chiến Thành cổ Quảng Trị kéo dài 81 ngày đêm (từ tháng 6-9/1972), là một trong những trận chiến ác liệt nhất trong chiến tranh Việt Nam."
+            "explanation": "Tráº­n chiến Thành cổ Quảng Trị kĂ©o dài 81 ngĂ y đêm (từ tháng 6-9/1972), lĂ  một trong nhá»¯ng tráº­n chiến ác liệt nhất trong chiến tranh Việt Nam."
           }
+        ],
+        "status_description": "",
+        "conduct": {
+          "dos": [
+            "Chụp ảnh lưu niệm không chạm vào hiện vật.",
+            "Giữ gìn vệ sinh chung.",
+            "Báo cáo hành vi xấu cho nhân viên quản lý."
+          ],
+          "donts": [
+            "Khắc tên lên hiện vật hoặc tường thành.",
+            "Giẫm đạp lên thảm cỏ.",
+            "Vứt rác và mang vật liệu cháy nổ."
+          ],
+          "lawExcerpt": "Theo Luật Di sản văn hóa 2001 và Nghị định 98/2010/NĐ-CP: Người nào cố ý làm hư hỏng di tích lịch sử – văn hóa sẽ bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự.",
+          "lawLink": ""
+        },
+        "image_urls": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1854,
+          16.8197
         ]
-      },
-      "geometry": { "type": "Point", "coordinates": [107.1854, 16.8197] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "song_ben_hai",
-        "name": "Sông Bến Hải",
-        "summary": "Sông Bến Hải - ranh giới tạm thời giữa hai miền Nam-Bắc theo Hiệp định Geneva 1954.",
-        "history": "Sông Bến Hải chảy qua tỉnh Quảng Trị, là ranh giới quân sự tạm thời theo Hiệp định Geneva (1954-1975). Sông đã trở thành biểu tượng của sự chia cắt đất nước và nỗi đau ly tán của hàng triệu gia đình Việt Nam.",
-        "dos": ["Tôn trọng người dân địa phương","Giữ khoảng cách an toàn khi tham quan"],
-        "donts": ["Không vứt rác xuống sông","Không lấn chiếm bờ sông"],
-        "legal_excerpt": "Quy định quản lý hành lang bảo vệ sông và di tích lịch sử ven sông theo Luật Tài nguyên nước 2012.",
-        "conservation_status": "watch",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [107.0398, 17.0405] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "tuan_test",
-        "name": "test",
-        "summary": "Sông Bến Hải - ranh giới tạm thời giữa hai miền Nam-Bắc theo Hiệp định Geneva 1954.",
-        "history": "Sông Bến Hải chảy qua tỉnh Quảng Trị, là ranh giới quân sự tạm thời theo Hiệp định Geneva (1954-1975). Sông đã trở thành biểu tượng của sự chia cắt đất nước và nỗi đau ly tán của hàng triệu gia đình Việt Nam.",
-        "dos": ["Tôn trọng người dân địa phương","Giữ khoảng cách an toàn khi tham quan"],
-        "donts": ["Không vứt rác xuống sông","Không lấn chiếm bờ sông"],
-        "legal_excerpt": "Quy định quản lý hành lang bảo vệ sông và di tích lịch sử ven sông theo Luật Tài nguyên nước 2012.",
-        "conservation_status": "watch",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [108.23288229543745,16.052167037654588] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "cau_hien_luong",
-        "name": "Cầu Hiền Lương",
-        "summary": "Cầu Hiền Lương bắc qua sông Bến Hải - biểu tượng phân chia đất nước (1954-1975).",
-        "history": "Cầu Hiền Lương được xây dựng năm 1928, bắc qua sông Bến Hải nối liền Bắc-Nam. Từ 1954-1975, cầu trở thành ranh giới quân sự tạm thời. Nhiều gia đình đứng hai bên bờ sông nhìn nhau mà không thể gặp gỡ. Cầu Hiền Lương là biểu tượng của nỗi đau chia cắt và khát vọng thống nhất đất nước.",
-        "dos": ["Tham quan có trật tự","Tôn trọng biển cảnh báo"],
-        "donts": ["Không cản trở giao thông","Không bốc xếp vật liệu trên cầu"],
-        "legal_excerpt": "Quy định bảo vệ cầu lịch sử và an toàn giao thông theo Nghị định 185/2013/NĐ-CP về quản lý công trình giao thông.",
-        "conservation_status": "watch",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [107.0398, 17.0408] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "dia_dao_vinh_moc",
-        "name": "Địa đạo Vịnh Mốc",
-        "summary": "Hệ thống địa đạo Vịnh Mốc - nơi trú ẩn của hơn 300 dân thường trong 6 năm chiến tranh ác liệt.",
-        "history": "Địa đạo Vịnh Mốc nằm ở xã Vịnh Linh, Quảng Trị, được đào từ 1966-1967 với tổng chiều dài 2.800m, sâu 12-23m dưới mặt đất. Đây là nơi trú ẩn của hơn 300 dân làng trong 6 năm chiến tranh. Trong lòng đất, người dân sinh sống, làm việc, thậm chí sinh con (17 em bé chào đời trong địa đạo). Địa đạo Vịnh Mốc là minh chứng về ý chí kiên cường của nhân dân Việt Nam.",
-        "dos": ["Đi theo hướng dẫn viên","Không mang đồ dễ cháy vào khu vực"],
-        "donts": ["Không leo trèo cấu trúc yếu","Không mang vật dễ cháy"],
-        "legal_excerpt": "Quy định về bảo tồn di tích và đảm bảo an toàn cho du khách theo Nghị định 98/2010/NĐ-CP.",
-        "conservation_status": "good",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [107.0513, 17.2050] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "quang_binh_quan",
-        "name": "Quảng Bình Quan",
-        "summary": "Quảng Bình Quan - cửa ải lịch sử ngăn cách hai tỉnh Quảng Bình và Quảng Trị.",
-        "history": "Quảng Bình Quan là cửa ải quan trọng trên Quốc lộ 1A, ranh giới giữa hai tỉnh Quảng Bình và Quảng Trị. Từ thời phong kiến, đây là cửa ngõ chiến lược kiểm soát giao thông Bắc-Nam. Trong chiến tranh, khu vực này chứng kiến nhiều trận đánh ác liệt. Ngày nay, Quảng Bình Quan vẫn giữ vẻ hùng vĩ và gợi nhớ về lịch sử dựng nước và giữ nước.",
-        "dos": ["Giữ vệ sinh","Tuân thủ biển báo"],
-        "donts": ["Không chặt phá cây","Không xâm phạm khu vực bảo tồn"],
-        "legal_excerpt": "Quy định địa phương về bảo vệ di tích lịch sử theo Luật Di sản văn hóa 2001.",
-        "conservation_status": "good",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [106.8347, 17.4714] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "nga_ba_dong_loc",
-        "name": "Ngã ba Đồng Lộc",
-        "summary": "Ngã ba Đồng Lộc (Hà Tĩnh) - nơi ghi dấu sự hy sinh của các cô gái thanh niên xung phong.",
-        "history": "Ngã ba Đồng Lộc nằm ở huyện Can Lộc, Hà Tĩnh (không phải Quảng Trị, nhưng gắn liền với hành trình chi viện miền Nam). Trong chiến tranh, đây là nơi tập kết và phân luồng vận chuyển vũ khí, lương thực vào miền Nam. Ngã ba Đồng Lộc là biểu tượng của sự hy sinh anh dũng của các cô gái thanh niên xung phong đã ngã xuống dưới hỏa lực dữ dội của địch.",
-        "dos": ["Thăm viếng với lòng thành","Ghi nhớ lịch sử"],
-        "donts": ["Không mang vật cấm","Không làm mất trật tự"],
-        "legal_excerpt": "Quy định về bảo vệ khu tưởng niệm và xử lý vi phạm theo Nghị định 98/2010/NĐ-CP.",
-        "conservation_status": "critical",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [105.7201, 18.4308] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ben_do",
-        "name": "Bến đò sông Bến Hải",
-        "summary": "Bến đò Bến Hải - điểm giao thông truyền thống dọc sông, chứng nhân của sự chia cắt.",
-        "history": "Bến đò sông Bến Hải là nơi người dân hai bên bờ sông đi lại bằng thuyền đò trong thời bình. Từ 1954-1975, bến đò trở thành ranh giới ngăn cách gia đình, người thân. Bến đò chứng kiến bao câu chuyện ly tán đau thương và niềm mong mỏi thống nhất đất nước.",
-        "dos": ["Tôn trọng người làm nghề đò","Giữ gìn vệ sinh"],
-        "donts": ["Không chiếm bến","Không làm mất trật tự"],
-        "legal_excerpt": "Quy định quản lý bến bãi và di tích ven sông theo Nghị định 34/2016/NĐ-CP.",
-        "conservation_status": "watch",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [107.0395, 17.0402] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "tuong_dai_me_suot",
-        "name": "Tượng đài Mẹ Suốt",
-        "summary": "Tượng đài Mẹ Suốt - tưởng nhớ bà Mẹ Việt Nam anh hùng Nguyễn Thị Suốt, mất 9 con trong kháng chiến.",
-        "history": "Bà Nguyễn Thị Suốt là Mẹ Việt Nam anh hùng, ở xã Triệu Phước, Triệu Phong, Quảng Trị. Bà đã hiến cả 9 người con cho sự nghiệp giải phóng dân tộc. Tượng đài được dựng để tưởng nhớ lòng yêu nước, sự hy sinh cao cả của các Bà mẹ Việt Nam anh hùng, là biểu tượng của nỗi đau mất mát và niềm tự hào dân tộc.",
-        "dos": ["Thắp hương theo quy định","Giữ gìn trật tự"],
-        "donts": ["Không leo lên tượng","Không gây ồn ào"],
-        "legal_excerpt": "Quy định bảo vệ công trình tượng đài và khuôn viên theo Nghị định 98/2010/NĐ-CP.",
-        "conservation_status": "good",
-        "images": [],
-        "quiz": []
-      },
-      "geometry": { "type": "Point", "coordinates": [107.1447, 16.7853] }
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": "quan_dao_hoang_sa",
-        "name": "Quần đảo Hoàng Sa",
-        "summary": "Quần đảo Hoàng Sa - Lãnh thổ thiêng liêng của Việt Nam, bị Trung Quốc chiếm đóng trái phép từ 1974.",
-        "history": "Quần đảo Hoàng Sa (Paracel Islands) nằm ở Biển Đông, cách bờ biển Đà Nẵng khoảng 120 hải lý về phía Đông. Việt Nam có chủ quyền lịch sử và pháp lý đối với Hoàng Sa từ thế kỷ 17 (triều Nguyễn). Tháng 1/1974, Trung Quốc dùng vũ lực chiếm đóng toàn bộ quần đảo. Việt Nam khẳng định chủ quyền bằng bằng chứng lịch sử, tư liệu, bản đồ cổ và luật pháp quốc tế.",
+        "name": "Quáº§n Ä‘áº£o HoĂ ng Sa",
+        "summary": "Quáº§n Ä‘áº£o HoĂ ng Sa - LĂ£nh thá»• thiĂªng liĂªng cá»§a Viá»‡t Nam, bá»‹ Trung Quá»‘c chiáº¿m Ä‘Ă³ng trĂ¡i phĂ©p tá»« 1974.",
+        "history": "Quáº§n Ä‘áº£o HoĂ ng Sa (Paracel Islands) náº±m á»Ÿ Biá»ƒn ÄĂ´ng, cĂ¡ch bá» biá»ƒn ÄĂ  Náºµng khoáº£ng 120 háº£i lĂ½ vá» phĂ­a ÄĂ´ng. Viá»‡t Nam cĂ³ chá»§ quyá»n lá»‹ch sá»­ vĂ  phĂ¡p lĂ½ Ä‘á»‘i vá»›i HoĂ ng Sa tá»« tháº¿ ká»· 17 (triá»u Nguyá»…n). ThĂ¡ng 1/1974, Trung Quá»‘c dĂ¹ng vÅ© lá»±c chiáº¿m Ä‘Ă³ng toĂ n bá»™ quáº§n Ä‘áº£o. Viá»‡t Nam kháº³ng Ä‘á»‹nh chá»§ quyá»n báº±ng báº±ng chá»©ng lá»‹ch sá»­, tÆ° liá»‡u, báº£n Ä‘á»“ cá»• vĂ  luáº­t phĂ¡p quá»‘c táº¿.",
         "dos": [
-          "Tìm hiểu lịch sử và khẳng định chủ quyền Việt Nam",
-          "Tuyên truyền về Hoàng Sa - Trường Sa thuộc Việt Nam",
-          "Ủng hộ các hoạt động bảo vệ chủ quyền biển đảo"
+          "TĂ¬m hiá»ƒu lá»‹ch sá»­ vĂ  kháº³ng Ä‘á»‹nh chá»§ quyá»n Viá»‡t Nam",
+          "TuyĂªn truyá»n vá» HoĂ ng Sa - TrÆ°á»ng Sa thuá»™c Viá»‡t Nam",
+          "á»¦ng há»™ cĂ¡c hoáº¡t Ä‘á»™ng báº£o vá»‡ chá»§ quyá»n biá»ƒn Ä‘áº£o"
         ],
         "donts": [
-          "Không công nhận hành vi chiếm đóng trái phép",
-          "Không sử dụng tên gọi sai lệch về chủ quyền",
-          "Không làm tổn hại đến vị thế pháp lý của Việt Nam"
+          "KhĂ´ng cĂ´ng nháº­n hĂ nh vi chiáº¿m Ä‘Ă³ng trĂ¡i phĂ©p",
+          "KhĂ´ng sá»­ dá»¥ng tĂªn gá»i sai lá»‡ch vá» chá»§ quyá»n",
+          "KhĂ´ng lĂ m tá»•n háº¡i Ä‘áº¿n vá»‹ tháº¿ phĂ¡p lĂ½ cá»§a Viá»‡t Nam"
         ],
-        "legal_excerpt": "Theo Luật Biển Việt Nam 2012 và Công ước Liên Hợp Quốc về Luật Biển (UNCLOS 1982): Hoàng Sa và Trường Sa là lãnh thổ không thể tách rời của Việt Nam. Mọi hành vi xâm phạm chủ quyền đều bị lên án và phản đối.",
+        "legal_excerpt": "Theo Luáº­t Biá»ƒn Viá»‡t Nam 2012 vĂ  CĂ´ng Æ°á»›c LiĂªn Há»£p Quá»‘c vá» Luáº­t Biá»ƒn (UNCLOS 1982): HoĂ ng Sa vĂ  TrÆ°á»ng Sa lĂ  lĂ£nh thá»• khĂ´ng thá»ƒ tĂ¡ch rá»i cá»§a Viá»‡t Nam. Má»i hĂ nh vi xĂ¢m pháº¡m chá»§ quyá»n Ä‘á»u bá»‹ lĂªn Ă¡n vĂ  pháº£n Ä‘á»‘i.",
         "conservation_status": "critical",
         "images": [],
         "quiz": [
           {
             "id": "hs1",
-            "question": "Quần đảo Hoàng Sa bị Trung Quốc chiếm đóng trái phép vào năm nào?",
-            "choices": ["1954","1974","1988"],
+            "question": "Quáº§n Ä‘áº£o HoĂ ng Sa bá»‹ Trung Quá»‘c chiáº¿m Ä‘Ă³ng trĂ¡i phĂ©p vĂ o nÄƒm nĂ o?",
+            "choices": [
+              "1954",
+              "1974",
+              "1988"
+            ],
             "correctIndex": 1,
-            "explanation": "Tháng 1/1974, Trung Quốc dùng vũ lực tấn công và chiếm toàn bộ quần đảo Hoàng Sa. Việt Nam kiên quyết bảo vệ chủ quyền bằng các biện pháp ngoại giao và pháp lý quốc tế."
+            "explanation": "ThĂ¡ng 1/1974, Trung Quá»‘c dĂ¹ng vÅ© là»±c táº¥n cĂ´ng vĂ  chiáº¿m toĂ n bá»™ quáº§n Ä‘áº£o HoĂ ng Sa. Việt Nam kiĂªn quyáº¿t báº£o vá»‡ chá»§ quyá»n báº±ng các biá»‡n phĂ¡p ngoáº¡i giao vĂ  phĂ¡p lĂ½ quá»‘c táº¿."
           }
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [111.9050, 16.5000] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.905,
+          16.5
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": "quan_dao_truong_sa",
-        "name": "Quần đảo Trường Sa",
-        "summary": "Quần đảo Trường Sa - Lãnh thổ thiêng liêng của Việt Nam, nơi các chiến sĩ hải quân kiên cường bảo vệ chủ quyền biển đảo.",
-        "history": "Quần đảo Trường Sa (Spratly Islands) nằm ở phía Nam Biển Đông, gồm hơn 100 đảo, bãi, đá ngầm. Việt Nam có chủ quyền lịch sử đối với Trường Sa từ thế kỷ 17. Từ năm 1975, Việt Nam quản lý và bảo vệ một số đảo, đá, bãi thuộc quần đảo. Các chiến sĩ Hải quân Việt Nam đã và đang kiên cường bảo vệ chủ quyền biển đảo thiêng liêng. Trận hải chiến Gạc Ma (14/3/1988) là minh chứng cho tinh thần bất khuất của người lính biển Việt Nam.",
+        "name": "Quáº§n Ä‘áº£o TrÆ°á»ng Sa",
+        "summary": "Quáº§n Ä‘áº£o TrÆ°á»ng Sa - LĂ£nh thá»• thiĂªng liĂªng cá»§a Viá»‡t Nam, nÆ¡i cĂ¡c chiáº¿n sÄ© háº£i quĂ¢n kiĂªn cÆ°á»ng báº£o vá»‡ chá»§ quyá»n biá»ƒn Ä‘áº£o.",
+        "history": "Quáº§n Ä‘áº£o TrÆ°á»ng Sa (Spratly Islands) náº±m á»Ÿ phĂ­a Nam Biá»ƒn ÄĂ´ng, gá»“m hÆ¡n 100 Ä‘áº£o, bĂ£i, Ä‘Ă¡ ngáº§m. Viá»‡t Nam cĂ³ chá»§ quyá»n lá»‹ch sá»­ Ä‘á»‘i vá»›i TrÆ°á»ng Sa tá»« tháº¿ ká»· 17. Tá»« nÄƒm 1975, Viá»‡t Nam quáº£n lĂ½ vĂ  báº£o vá»‡ má»™t sá»‘ Ä‘áº£o, Ä‘Ă¡, bĂ£i thuá»™c quáº§n Ä‘áº£o. CĂ¡c chiáº¿n sÄ© Háº£i quĂ¢n Viá»‡t Nam Ä‘Ă£ vĂ  Ä‘ang kiĂªn cÆ°á»ng báº£o vá»‡ chá»§ quyá»n biá»ƒn Ä‘áº£o thiĂªng liĂªng. Tráº­n háº£i chiáº¿n Gáº¡c Ma (14/3/1988) lĂ  minh chá»©ng cho tinh tháº§n báº¥t khuáº¥t cá»§a ngÆ°á»i lĂ­nh biá»ƒn Viá»‡t Nam.",
         "dos": [
-          "Tìm hiểu và ghi nhớ lịch sử chủ quyền Trường Sa",
-          "Tôn vinh các anh hùng liệt sĩ bảo vệ biển đảo",
-          "Tuyên truyền chủ quyền Việt Nam trên Trường Sa"
+          "TĂ¬m hiá»ƒu vĂ  ghi nhá»› lá»‹ch sá»­ chá»§ quyá»n TrÆ°á»ng Sa",
+          "TĂ´n vinh cĂ¡c anh hĂ¹ng liá»‡t sÄ© báº£o vá»‡ biá»ƒn Ä‘áº£o",
+          "TuyĂªn truyá»n chá»§ quyá»n Viá»‡t Nam trĂªn TrÆ°á»ng Sa"
         ],
         "donts": [
-          "Không công nhận yêu sách phi lý của nước ngoài",
-          "Không sử dụng bản đồ sai lệch về chủ quyền",
-          "Không làm tổn hại danh dự các anh hùng liệt sĩ"
+          "KhĂ´ng cĂ´ng nháº­n yĂªu sĂ¡ch phi lĂ½ cá»§a nÆ°á»›c ngoĂ i",
+          "KhĂ´ng sá»­ dá»¥ng báº£n Ä‘á»“ sai lá»‡ch vá» chá»§ quyá»n",
+          "KhĂ´ng lĂ m tá»•n háº¡i danh dá»± cĂ¡c anh hĂ¹ng liá»‡t sÄ©"
         ],
-        "legal_excerpt": "Theo Luật Biển Việt Nam 2012 và UNCLOS 1982: Trường Sa là lãnh thổ của Việt Nam. Việt Nam kiên quyết bảo vệ chủ quyền bằng biện pháp hòa bình, phù hợp luật pháp quốc tế.",
+        "legal_excerpt": "Theo Luáº­t Biá»ƒn Viá»‡t Nam 2012 vĂ  UNCLOS 1982: TrÆ°á»ng Sa lĂ  lĂ£nh thá»• cá»§a Viá»‡t Nam. Viá»‡t Nam kiĂªn quyáº¿t báº£o vá»‡ chá»§ quyá»n báº±ng biá»‡n phĂ¡p hĂ²a bĂ¬nh, phĂ¹ há»£p luáº­t phĂ¡p quá»‘c táº¿.",
         "conservation_status": "critical",
         "images": [],
         "quiz": [
           {
             "id": "ts1",
-            "question": "Trận hải chiến Gạc Ma bảo vệ Trường Sa diễn ra vào ngày nào?",
-            "choices": ["14/3/1975","14/3/1988","14/3/1995"],
+            "question": "Tráº­n háº£i chiến Gáº¡c Ma báº£o vá»‡ TrÆ°á»ng Sa diá»…n ra vĂ o ngày nĂ o?",
+            "choices": [
+              "14/3/1975",
+              "14/3/1988",
+              "14/3/1995"
+            ],
             "correctIndex": 1,
-            "explanation": "Ngày 14/3/1988, quân Trung Quốc tấn công đảo Gạc Ma thuộc quần đảo Trường Sa. 64 chiến sĩ Hải quân Việt Nam hy sinh anh dũng, bảo vệ chủ quyền thiêng liêng của Tổ quốc."
+            "explanation": "NgĂ y 14/3/1988, quĂ¢n Trung Quá»‘c táº¥n cĂ´ng Ä‘áº£o Gáº¡c Ma thuá»™c quáº§n Ä‘áº£o TrÆ°á»ng Sa. 64 chiến sÄ© Háº£i quĂ¢n Việt Nam hy sinh anh dÅ©ng, báº£o vá»‡ chá»§ quyá»n thiĂªng liĂªng cá»§a Tá»• quá»‘c."
           }
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [114.2000, 9.8500] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2,
+          9.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "diadaovinhmoc",
+        "name": "Địa đạo Vịnh Mốc",
+        "summary": "Địa đạo Vịnh Mốc được xây dựng tại thôn Vịnh Mốc, xã Kim Thạch, huyện Vĩnh Linh, tỉnh Quảng Trị (nay là xã Cửa Tùng, tỉnh Quảng Trị) là một công trình quân - dân sự trong Chiến tranh Việt Nam của phía Việt Nam Dân chủ Cộng hòa nhằm chống lại các cuộc tấn công của phía Việt Nam Cộng hòa và Hợp chúng quốc Hoa Kỳ. Hệ thống địa đạo tồn tại ở phía Bắc sông Bến Hải, cầu Hiền Lương trong suốt những năm 1965–1972.",
+        "history": "Lịch sử\nTrong những năm 1960, chính quyền Việt Nam Cộng hòa của Ngô Đình Diệm không tôn trọng Hiệp định Genève 1954 và không tiến hành tổng tuyển cử như dự định. Cùng với việc tấn công vào các phong trào nổi dậy ở miền Nam, Mỹ đã ra sức khiêu khích, gây chiến với lực lượng Việt Nam Dân chủ Cộng hòa bảo vệ giới tuyến ở Vĩnh Linh.\nNăm 1965, Mỹ đã tạo ra sự kiện Vịnh Bắc Bộ để bắt đầu cuộc chiến tranh phá hoại ra miền Bắc bằng không lực, trong đó Vĩnh Linh là mục tiêu đánh phá hàng đầu.\nTrong suốt những năm 1965–1972, Vĩnh Linh liên tục bị đánh phá với tổng cộng hơn nửa triệu tấn mìn đạn các loại. Tính bình quân, mỗi người dân ở đây phải gánh chịu 7 tấn bom đạn Mỹ.\n\nQuá trình xây dựng\nĐịa đạo đầu tiên xuất hiện ở Việt Nam từ năm 1947 tại vùng Phú Thọ Hòa (nay thuộc Tân Bình – Thành phố Hồ Chí Minh). Rồi sau đó, những năm 1961–1965, ở Củ Chi đã xuất hiện hệ thống địa đạo lan rộng khắp 5 xã.\nVào cuối năm 1963, ông Trần Nam Trung từ Trung ương Cục Đảng Cộng sản Việt Nam ở miền Nam trên đường ra Bắc đã ghé thăm khu vực chiến sự ở xã Vĩnh Giang (Vĩnh Linh). Sau khi quan sát địa hình, địa chất ở nơi đây, ông gợi ý Vĩnh Linh nên đào địa đạo như ở Củ Chi.\nVới phương châm: “Một tấc không đi, một ly không rời. Mỗi làng, xã là một pháo đài”, thông qua chỉ thị của khu ủy Vĩnh Linh, Đồn trưởng đồn công an vũ trang nhân dân 140 Lê Xuân Vy đã chỉ huy đơn vị và nhân dân địa phương nhanh chóng tiến hành đào địa đạo.\nCông trình được bắt đầu từ đầu năm 1965 và hoàn thành vào ngày 18 tháng 2 năm 1966.\nĐiều đặc biệt là vị chỉ huy công trình Lê Xuân Vy lúc bấy giờ học vấn chỉ vừa hết tiểu học, và dụng cụ hiện đại nhất trong tay ông là chiếc la bàn cũ kỹ. Hiện nay ông là cựu trung tá, ở độ tuổi 85, cư ngụ tại thành phố Đông Hà và bị mù do ảnh hưởng bởi vết thương trong chiến tranh.\n\nCấu trúc\nĐể bảo đảm cho hàng trăm con người ăn, ở, sinh hoạt an toàn, tiện lợi, dọc hai bên đường hầm người ta xây dựng rất nhiều căn hộ, mỗi căn hộ đủ chỗ cho ba đến bốn người ở.\nTrong lòng địa đạo có ba giếng nước, một hội trường (với sức chứa 50 người), bệnh xá, nhà hộ sinh, trạm phẫu thuật, bếp Hoàng Cầm, kho gạo, trạm đặt máy điện thoại...\n\nHai bên trục đường chính cách nhau từ ba đến năm mét lại khoét lõm sâu vào thành một hầm nhỏ, dùng làm nơi sinh hoạt của một gia đình.\nĐịa đạo được cấu tạo thành ba tầng:\n\nTầng một sâu cách mặt đất từ 12 đến 15 m, là nơi chiến đấu và trú ẩn tạm thời.\n\nTầng hai sâu 18 m là nơi sống và sinh hoạt của nhân dân, đồng thời là nơi đặt trụ sở của Đảng ủy, Ủy ban nhân dân và Bộ Chỉ huy quân sự.\n\nTầng ba sâu 22 m dùng làm kho chứa hậu cần cung cấp cho đảo Cồn Cỏ và phục vụ chiến đấu của quân dân Vịnh Mốc.\n\nĐặc điểm\nTheo thống kê, có đến 18.000 ngày công được huy động để đào địa đạo Vịnh Mốc trong hai năm. Địa đạo này được đào ở vùng đất đỏ bazan từ năm 1965 và hoàn thành năm 1967 với tổng chiều dài trục chính hơn 2.000 m.\nCứ 4 m có một căn hộ gia đình, rộng 0,8 m, cao 1,8 m, dùng cho 4 người ở. Đất sét trong lòng địa đạo ngày càng cứng chắc, nên hệ thống vẫn tồn tại gần như nguyên bản đến tận ngày nay.\n\nHệ thống địa đạo gồm 3 tầng:\n\nTầng thứ nhất sâu 12 m, dùng để cơ động chiến đấu và trú ẩn.\n\nTầng thứ hai cách mặt đất 15 m, dùng làm nơi ở và sinh hoạt của nhân dân.\n\nTầng cuối cùng sâu 23 m, dùng để cất giấu lương thực và vũ khí.\n\nNgay cả tầng sâu nhất (23 m) vẫn cao hơn mực nước biển đến 3 m, nên mọi sinh hoạt trong địa đạo vẫn diễn ra bình thường vào mùa mưa.\nToàn bộ hệ thống địa đạo Vịnh Mốc có 13 cửa thông ra ngoài, trong đó có 7 cửa thông ra biển, 6 cửa thông lên đồi; mỗi cửa hầm được coi như một lỗ thông hơi.\nTại các cửa hầm đều có lắp đặt gỗ chống sập và thường xuyên được gia cố để chống sụt lở.\n\nCư dân địa đạo ít khi ra ngoài, họ chỉ ra ngoài lúc cần thiết, khi không nguy hiểm.\n\nCuộc sống trong địa đạo\nCuộc sống dưới địa đạo thiếu ánh sáng, ẩm ướt vào mùa đông, nóng bức vào mùa hạ, điều kiện vệ sinh không đảm bảo nên hầu như đa số cư dân địa đạo đều bị ký sinh trùng, bạc da và các bệnh về xương, mắt.\nCuộc sống dưới lòng đất không phù hợp với con người, luôn thiếu ánh sáng. Hầu hết các làng hầm đều tiết kiệm chất liệu thắp sáng như dầu hỏa, mỡ, chỉ những lúc cần thiết như hội họp, cấp cứu bệnh nhân, chăm sóc trẻ sơ sinh... mới dùng đèn.\nNgoài ra, thiếu thốn lương thực, thực phẩm và các nhu yếu phẩm cũng là vấn đề lớn nhất đối với cư dân địa đạo.\n\nCuộc sống bình thường đã tồn tại suốt nhiều năm trong lòng đất với đầy đủ khái niệm của sự sống như học hành, vui chơi, giải trí, yêu thương, sinh con... trong một khoảng không gian chỉ rộng 1,8 m của đường hầm.\n\nĐể an toàn duy trì nòi giống, để có người nối dõi, các gia đình, họ tộc, cư dân địa đạo Vịnh Mốc phải chia ra sống ở nhiều hầm khác nhau. Trong thời gian sống trong địa đạo ở Vĩnh Linh nói chung, đã có 60 đứa trẻ được sinh ra; riêng địa đạo Vịnh Mốc đã có 17 đứa trẻ chào đời trong lòng địa đạo.\nĐịa đạo là nơi ở của nhân dân trong những năm chiến tranh ác liệt, lúc đông nhất có khoảng 1.200 người sinh sống.\nTrong gần 2.000 ngày đêm tồn tại, trong lòng địa đạo không một người nào bị thương và đã có 17 em bé chào đời — đủ nói lên giá trị và ý nghĩa của địa đạo Vịnh Mốc.\nCó nhiều căn hầm được tạo ra để làm phòng hộ sinh và nhà nuôi dạy trẻ.\n\nThương vong\nTrong thực tế chiến tranh ác liệt, nhiều hệ thống địa đạo không đủ kiên cố, khó đáp ứng được yêu cầu trú ẩn và chiến đấu an toàn cho dân chúng vùng giới tuyến, đã có không ít tổn thất về nhân mạng.\nĐiển hình là sự kiện ngày 26 tháng 2 năm 1967, địa đạo Đơn Duệ (Vĩnh Hòa) bị bom Mỹ đánh sập làm 4 người chết;\nngày 20 tháng 6 năm 1967, địa đạo Tân Lý (ở Vĩnh Quang) bị sập làm 61 người chết;\nngày 27 tháng 7 năm 1967, địa đạo Xóm Bợc (ở Vĩnh Thạch) bị sập làm 22 người chết;\nđịa đạo Bình Minh (ở Vĩnh Hiền) sập ngày 10 tháng 9 năm 1967 làm chết 39 người.\nRút kinh nghiệm đó, địa đạo Vịnh Mốc được bố trí kiên cố và hợp lý hơn, nên không có tổn thất về người trong chiến tranh.\n\nĐiểm du lịch\nĐịa đạo Vịnh Mốc nằm trong hệ thống các điểm du lịch khu phi quân sự trước đây trong chiến tranh Việt Nam, đã được công nhận là di tích lịch sử Việt Nam.\nKhu bảo tàng địa đạo Vịnh Mốc chính thức mở cửa đón khách từ năm 1995, đến nay đã thu hút được một lượng du khách lớn.",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://imgs.search.brave.com/ms5Iwon8w9Hu7QbB0Ftwp8lMkA4Nvh-VfaHxwCiWjTQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lY290/b3VyLmNvbS52bi93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNS8w/NS9raG9uZy1naWFu/LWRpYS1kYW8tdmlu/aC1tb2MtcXVhbmct/dHJpLmpwZw",
+          "https://imgs.search.brave.com/U1UNGT98UpObh3i1dp6mmbLboNCsoH8n2wzvIh46tvE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9taWEu/dm4vbWVkaWEvdXBs/b2Fkcy9ibG9nLWR1/LWxpY2gvZGlhLWRh/by12aW5oLW1vYy0x/LTE3MTA0Njc4NjYu/anBn"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.11129155128951,
+          17.073695084984777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "quangbinhquan",
+        "name": "Quảng Bình Quan",
+        "summary": "Quảng Bình Quan là tên của một di tích kiến trúc quân sự tại thành phố Đồng Hới, tỉnh Quảng Bình, Việt Nam.\n\nCùng với Đồn Động Hải, đây là một lũy quan ải án ngữ trên đường Thiên Lý Bắc – Nam (đường Hạ), thuộc hệ thống Lũy Thầy (về sau được vua Thiệu Trị đặt tên là “Định Bắc Trường Thành”), được xây dựng dưới thời chúa Nguyễn Phúc Nguyên, tồn tại suốt thời kỳ Trịnh – Nguyễn phân tranh, đóng vai trò quan trọng trong việc ngăn cản quân Trịnh tiến xuống phương Nam suốt 150 năm.\n\nNgày nay, công trình chỉ còn di tích cổng quan cổ nằm ngay trên tuyến Quốc lộ 1A, là biểu tượng lịch sử tiêu biểu của tỉnh Quảng Bình.",
+        "history": "Khái lược\n\nQuảng Bình Quan là một quan ải trọng yếu trên hệ thống Lũy Thầy, được Đào Duy Từ cho xây dựng vào năm 1631. Công trình này trấn giữ cửa sông Đồng Hới, tại điểm hợp lưu của hai con sông Nhật Lệ và Lệ Kỳ, đồng thời là “gạch nối” của lũy Đầu Mâu – Nhật Lệ.\nMuốn đi từ Bắc vào Nam, bắt buộc phải đi qua Quảng Bình Quan. Chúa Nguyễn còn cho đắp một đồn binh ở phía Bắc Quảng Bình Quan, gọi là đồn Động Hải, đặt theo con sông Định Hải gần đó.\n\nQuảng Bình Quan (dân gian gọi là cổng Hạ) ban đầu được đắp bằng đất, đến thời Minh Mạng thì được mở rộng và xây bằng gạch đá kiên cố, trên cổng dựng nhà canh, đắp thêm lũy ngoài và hào nước. Đồn Động Hải cũng được mở rộng và xây kiên cố, trở thành thành sở của tỉnh Quảng Bình.\n\nTrải qua biến thiên lịch sử và thời gian, Quảng Bình Quan đã bị hư hại nặng.\nNăm 1961, di tích được phục chế phần cổng quan, tu sửa gần như nguyên bản (phần hào lũy hầu như không còn dấu tích).\nĐến năm 1965, công trình bị bom Mỹ đánh sập gần như hoàn toàn.\n\nHiện nay, Quảng Bình Quan đã được phục chế lại gần như nguyên bản.\nDi tích thành Đồng Hới gần đó cũng được phục chế ba cổng thành và một đoạn tường thành phía Nam, cùng hào nước được bảo tồn gần như nguyên vẹn, tạo thành cụm di tích lịch sử – kiến trúc tiêu biểu của tỉnh Quảng Bình.",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://imgs.search.brave.com/Ew5mDtxH2JhGgL1L6z-yvGlEV5nTDzhwqK0Jtovv0KU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dm50cmlwLnZuL2Nh/bS1uYW5nL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE3LzA3L1F1/YW5nLUJpbmgtUXVh/bi5qcGc",
+          "https://imgs.search.brave.com/uKaKRCAKMiIzWxwSJd3QpcJt4navtUezU61Ep6100-Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG9u/Z25oYWV4cGxvcmVy/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8xMS9xdWFu/Zy1iaW5oLXF1YW4t/Ni5qcGc",
+          "https://imgs.search.brave.com/DdvivbRFVzFWnoTEzX6Ohweh4tNKz1KwVaNioQp58Kg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG9u/Z25oYWV4cGxvcmVy/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8xMS9xdWFu/Zy1iaW5oLXF1YW4t/MDEuanBn"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.62411689758302,
+          17.46276981942403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luythay",
+        "name": "Lũy Thầy",
+        "summary": "Trong lịch sử quân sự Việt Nam, có một hệ thống thành lũy kiên cố và lợi hại, được nhân dân quen gọi là Lũy Thầy.\nChính nhờ có Lũy Thầy mà nhà Nguyễn có thể tồn tại qua chín đời chúa và mười ba đời vua.\n\nLũy Thầy được công nhận là Di tích lịch sử quốc gia năm 1992, nhờ những giá trị to lớn về lịch sử, quân sự và văn hóa được lưu giữ trong công trình này.",
+        "history": "Sở dĩ thành lũy trên vùng đất Quảng Bình có tên Lũy Thầy là do sự tôn kính của các chúa Nguyễn và người dân địa phương đặt tên công trình phòng thủ này mà “Thầy” Đào Duy Từ, một nhà chiến lược thiên tài giúp chúa Nguyễn và cũng là tổng công trình sư tạo ra ở nơi đây.\n\nTrong bối cảnh cuộc chiến Trịnh – Nguyễn phân tranh đầu thế kỷ XVII, các chúa Nguyễn có công mở cõi về phương Nam và đương đầu với quân Trịnh nên Đào Duy Từ đã thành lập hệ thống thành lũy dựa vào địa thế hiểm trở để ngăn chặn. Đôi bờ sông Gianh vì thế đã trở thành ranh giới Đàng Trong – Đàng Ngoài nhiều năm, trước khi giang sơn thu về một mối ở thời Tây Sơn và Nguyễn.\n\nLũy Thầy được Đào Duy Từ khởi công đắp vào năm Tân Hợi (1631), ở Đồng Hới, Quảng Bình. Lũy cao 12 thước, dài 10 dặm, trải dài từ núi Đầu Mâu đến cửa sông Nhật Lệ đổ ra biển, có hình cong như cầu vồng. Mặt lũy khá rộng, có thể đi lại được. Cứ mỗi đoạn 40 thước lại xây một pháo đài, đặt súng Thần công án ngự.\n\nTừ đó, chiến tranh Trịnh – Nguyễn thực sự xảy ra, sông Gianh (Linh Giang) là giới hạn. Khi Đào Duy Từ qua đời, chúa Nguyễn truy tặng ông là Trụ Quốc Kim Tử Vinh Lộc Đại Phu Lộc Khê Hầu.\n\nNăm Minh Mạng thứ 12 (1841), Lũy Thầy được sắc phong là “Định Bắc Trường Thành” và Đào Duy Từ được truy phong là Khai Quốc Công Thần.\n\nMặc dù Lũy Thầy được đắp bằng đất, nhưng là một công trình phòng thủ khá bề thế, kết hợp với con hào tự nhiên là sông Gianh, vì thế nơi đây trở thành một phòng tuyến quân sự lợi hại. Ngay từ thời các chúa Nguyễn đã có câu ca về thành cao, hào sâu này:\n\n“Lũy Thầy ai đắp mà cao,\nSông Gianh ai bới, ai đào mà sâu.”\n\nChính vị trí đắc địa của phòng tuyến kết hợp giữa thiên nhiên và nhân tạo này đã phát huy tác dụng triệt để. Mảnh đất phía Bắc Quảng Bình hẹp, một bên dựa vào dãy Trường Sơn hiểm trở, một bên là biển Đông, chỉ còn một lối tiến công là dải đồng bằng. Vì thế phòng tuyến giăng ngang giữa hai đầu núi biển đã như một cánh cửa đóng chặt con đường vào Nam, giống như cái thế đất eo “cổ chai”, bảo vệ vùng đất có dinh các chúa Nguyễn ở Quảng Trị. Công trình thành lũy phòng thủ này lợi hại đến nỗi có câu:\n\n“Khôn ngoan qua được Thanh Hà,\nDẫu rằng có cánh khó qua Lũy Thầy.”\n\nThực ra, Lũy Thầy là một hệ thống lũy, có thể kể ra như sau:\n\nLũy Trường Dục dài 2.500 trượng (khoảng 10km), chạy từ chân núi Thần Đinh dọc theo hữu ngạn sông Rào Đá (Long Đại) đến ngã ba sông Nhật Lệ, men theo bờ Nam qua các làng Xuân Dục, Cổ Hiền, Trường Dục, Quảng Xá đến vùng động cát phá Hạc Hải. Lũy Trường Dục được đắp bằng đất sét cao 3m, chân lũy rộng 6m. Bên trong có doanh trại, công sự, kho lương thực.\n\nSau đó, một lũy khác được đắp bổ sung ở vùng Đồng Hải (Quảng Bình), được gọi là lũy Đầu Mâu, cách lũy Trường Dục gần 20km về phía Bắc. Lũy này cao khoảng 6m, gấp đôi lũy Trường Dục; phía ngoài đóng cọc gỗ lim, phía trong đóng cọc tre, đổ đất lên 5 tầng cấp, voi và ngựa có thể đi trên thành. Trên lũy cứ cách 12–20m lại có một pháo đài đặt súng Thần công, cách 4m đặt 1 súng phóng đá. Chiều dài của lũy khoảng 12km từ Động Ông Hội dưới chân núi Đầu Mâu chạy men bờ Nam sông Lệ Kỳ đến cầu Dài ở phía Nam Đồng Hới.\n\nTiếp theo, lũy Trấn Ninh cũng được xây dựng, nối liền với lũy Đầu Mâu, chạy từ Cầu Dài, vòng sang phía Tây thành Đồng Hới, bọc lấy làng Đồng Phú, qua Hải Thành ra đến cửa sông Nhật Lệ. Phía ngoài lũy còn có hào vây quanh. Lũy Đầu Mâu hợp với lũy Nhật Lệ được gọi là lũy Đồng Hải (Đồng Hới) hay Trấn Ninh. Kiến trúc của lũy lợi dụng địa thế bãi lầy và kênh rạch để ngăn cản các cuộc tấn công của đối phương rất hiệu quả.\n\nTrên chiều dài khoảng 17km từ Đầu Mâu đến Nhật Lệ, lũy Đồng Hải còn lại 3 cửa, trong đó có cửa vào dinh Quảng Bình, còn gọi là Quảng Bình Quan, nay vẫn đứng sừng sững bên Quốc lộ 1A, vốn xưa là con đường Thiên Lý xuyên Việt — chứng nhân của lịch sử Quảng Bình suốt hàng trăm năm.\n\nLịch sử đã ghi lại hệ thống Lũy Thầy là một tuyến phòng thủ kiên cố.\nNăm 1633, Trịnh Tráng khởi binh đánh chúa Nguyễn đã phải dừng bước ở cửa sông Nhật Lệ, bị quân Nguyễn phục kích đánh úp, quân tướng hoang mang rệu rã phải lui về bờ Bắc sông Gianh.\nNăm 1634, chúa Nguyễn lại cho đắp thêm lũy Trường Sa dài 7km chạy từ Sa Động đến Huân Cát, hữu ngạn sông Nhật Lệ.\nNăm 1648, quân Trịnh tấn công lũy Trường Dục nhưng không phá được, bị đẩy lui xuống vùng đầm lầy Võ Xá và bị sa lầy, để lại 3 tướng và 3.000 quân bị bắt làm tù binh.\nTrận đánh ác liệt nhất vào năm 1672 đã chứng tỏ sự lợi hại của hệ thống thành lũy này: quân Trịnh liên tục tấn công mặt lũy Trấn Ninh nhưng không hạ được thành, phải rút lui, chấm dứt cuộc chiến gần 50 năm và mở ra hơn một thế kỷ hòa hoãn.\n\nVề mặt quân sự, hệ thống Lũy Thầy đã phát huy tối đa sức mạnh, với nhiều lớp thành đất phòng thủ liên hoàn, tổng cộng 34km, kết hợp với địa thế tự nhiên, đứng vững qua 7 cuộc tấn công của quân Trịnh. Có lẽ trong lịch sử cổ đại Việt Nam, Lũy Thầy là một hệ thống thành lũy đơn giản, dễ thi công nhưng phát huy hiệu quả phòng thủ mạnh nhất.\n\nNgày nay, dấu tích Lũy Thầy vẫn còn rải rác quanh cửa sông Nhật Lệ, một vài gò đất cao, đoạn thành thấp ở phường Phú Hải, hay những tấm bia đá ven đường còn ghi sự tích Lũy Thầy. Hiện nay, Lũy Thầy đã được xếp hạng là Di tích Quốc gia.\nNơi Lũy Thầy xưa nay đã trở thành phố xá, dọc ven sông Nhật Lệ là tượng đài “Mẹ Suốt anh hùng”. Lũy Thầy bây giờ chỉ còn là một chút di tích, thư tịch ghi lại và những câu ca dao truyền đời.\n\nThêm nữa, Lũy Thầy càng nổi tiếng bởi đi vào bài hát quen thuộc “Bình Trị Thiên khói lửa” của nhạc sĩ Nguyễn Văn Thương với đoạn ca:\n\n“Ai đã qua Đèo Ngang, đã sang Ba Rền,\nMến dòng sông Gianh, biết danh Lũy Thầy.”\n\nKhông chỉ nổi tiếng, Lũy Thầy còn là di sản văn hóa vật thể, minh chứng cho sự sáng tạo trong lịch sử quân sự Việt Nam.\nTheo các nhà khảo cổ học, hiện nay dấu tích Lũy Thầy chỉ còn lại vài đoạn thành đất cao khoảng 1m, dài khoảng 1km, bên trên còn một số cây to ở khu vực xã Hiền Ninh (huyện Quảng Ninh, Quảng Bình).\nĐến thời Nguyễn, khi đất nước thống nhất, hệ thống Lũy Thầy không còn tác dụng. Mảnh đất xưa của lũy Trấn Ninh được xây thành Đồng Hới năm 1812, và đến thời Minh Mạng, thành này được xây lại bằng gạch theo kiến trúc Vô băng, nay vẫn còn nhiều đoạn rêu phong, là điểm du lịch lịch sử thu hút khách trong và ngoài nước của tỉnh Quảng Bình.",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://danviet.ex-cdn.com/files/f1/296231569849192448/2022/8/13/images732022h1-1660408785043-16604087857571831604726.jpg"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.62660598754884,
+          17.463095247641657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tuongdaimesuot",
+        "name": "Tượng đài Mẹ Suốt",
+        "summary": "Tượng đài Mẹ Suốt\n\nTượng đài Mẹ Suốt nằm dọc theo sông Nhật Lệ, trở thành một điểm dừng chân ý nghĩa trong hành trình tham quan thành phố Đồng Hới.\nNăm 2003, Tượng đài Mẹ Suốt được khánh thành tại bờ sông Nhật Lệ, trên trục đường Quách Xuân Kỳ, thành phố Đồng Hới, tỉnh Quảng Bình.\nĐây là một di tích lịch sử nổi tiếng của Quảng Bình, khiến mỗi du khách ghé thăm không khỏi bồi hồi trước câu chuyện lịch sử hào hùng của người phụ nữ Việt Nam anh hùng Nguyễn Thị Suốt.\n\nTrên khắp tỉnh Quảng Bình, ai ai cũng biết đến những câu chuyện cảm động và anh dũng về Mẹ Suốt.\nTên gọi “Mẹ Suốt” là biệt danh thân thương mà người dân dành cho anh hùng Nguyễn Thị Suốt, sinh năm 1906 tại Bảo Ninh, Quảng Bình.\nBà được biết đến như một người mẹ anh hùng trong kháng chiến chống Mỹ cứu nước.\n\nTrong những năm chiến tranh ác liệt, khi các tuyến giao thông, bến phà trên sông Nhật Lệ — mạch máu giao thông của Quảng Bình và miền Trung — liên tục bị địch đánh phá, Mẹ Suốt đã dũng cảm xung phong chèo đò qua sông, vận chuyển bộ đội, vũ khí, hàng hóa và lương thực từ bờ Bắc sang bờ Nam, giữa bom đạn và làn nước dữ.\nHình ảnh người phụ nữ gầy gò, tay chèo con đò giữa mưa bom bão đạn, trở thành biểu tượng bất khuất của tinh thần Việt Nam, mãi mãi được nhân dân ghi nhớ và tôn vinh.",
+        "history": "Vào năm 1964, Mỹ bắt đầu tấn công miền Bắc. Trong đó, Quảng Bình trở thành mục tiêu trọng điểm của máy bay và hải quân Mỹ, nhằm cản trở sự chi viện từ miền Bắc cho lực lượng cách mạng miền Nam.\n\nMặc dù đã 60 tuổi, nhưng Mẹ Suốt vẫn không ngại gian khổ, tình nguyện chèo đò vận chuyển cán bộ, thương binh, vũ khí và lương thực qua sông, đồng thời duy trì thông tin liên lạc giữa hai bờ.\nTrong giai đoạn 1964 – 1966, Mẹ Suốt trung thành và dũng cảm hoàn thành nhiệm vụ, một mình vượt sông hàng trăm lượt, bất chấp bom đạn Mỹ trút xuống đầu.\n\nBà trở thành biểu tượng người phụ nữ Việt Nam anh hùng, quả cảm, được đồng đội và nhân dân trìu mến gọi là “Mẹ Suốt”.\nƯớc tính mỗi năm, Mẹ Suốt thực hiện khoảng 1.400 chuyến chèo đò, vận chuyển bộ đội, hàng hóa và vũ khí qua chiến tuyến an toàn.\n\nNăm 1966, Mẹ Suốt được mời tham dự Đại hội Anh hùng và Chiến sĩ thi đua toàn quốc ở miền Bắc.\nNgày 1/1/1967, bà được vinh danh danh hiệu Anh hùng ngành Giao thông Vận tải.\n\nĐến cuối năm 1968, khi chiến tranh trở nên ác liệt, Mẹ tạm dừng công việc chèo đò và di chuyển lên vùng cao. Tuy nhiên, vào ngày 11/10/1968, khi đang ở bến đò Bảo Ninh, Mẹ Nguyễn Thị Suốt đã hy sinh trong một trận oanh tạc dữ dội của Mỹ.\n\nĐến nay, tên tuổi của nữ anh hùng Nguyễn Thị Suốt vẫn lan tỏa khắp cả nước, trở thành biểu tượng bất khuất của người phụ nữ Việt Nam trong kháng chiến.\nBà là hình tượng tiêu biểu cho tinh thần kiên cường, không khuất phục, cho ý chí bảo vệ độc lập dân tộc và tự do nhân dân.\n\nHiện nay, Tượng đài Mẹ Suốt được dựng trên đường Quách Xuân Kỳ, thuộc thôn Trung Kính, phường Bảo Ninh, thành phố Đồng Hới, bên bờ sông Nhật Lệ.\nTác phẩm được nhà điêu khắc Phan Đình Tiến sáng tạo, cao 7 mét (kể cả bệ).\n\nTượng thể hiện hình ảnh người mẹ mạnh mẽ, tay chắc chèo, đầu ngẩng cao, vai khoác tấm vải dù tung bay trong gió.\nDưới chân tượng, một bên khắc họa sóng gió, bom đạn chiến tranh, bên còn lại là hình ảnh bộ đội, dân công, thương binh, thanh niên xung phong – những người mà Mẹ từng chèo đò đưa qua sông.\nGương mặt tượng hướng về sông Nhật Lệ, biểu trưng cho ý chí bất khuất, lòng yêu nước và khát vọng cống hiến của người phụ nữ Việt Nam anh hùng.",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://quangbinhtourism.gov.vn/wp-content/uploads/2025/05/Me-Suot-1-Phong-Nha-Discovery.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVe5CyxT9zz9q6eTiRggOQVEw0wS0vlRANaw&s",
+          "https://cms.junglebosstours.com/assets/ce9d249e-1e76-45f3-8f0c-217a17edaa34?format=webp"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6271209716797,
+          17.464157964229916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "trandiaphaobinhquangphu",
+        "name": "Trận địa pháo binh Quang Phú",
+        "summary": "Trận địa pháo binh Quang Phú\n\nTrận địa pháo nằm tại xã Quang Phú, cách thành phố Đồng Hới khoảng 3 km về phía Đông Bắc.\nĐược xây dựng vào năm 1964, trong thời điểm chiến tranh chống Mỹ ác liệt nhất, tuyến phòng thủ này gồm hầm pháo và lô cốt kiên cố bằng bê tông, nửa chìm nửa nổi trên mặt đất.\n\nTrận địa pháo hiện nay tọa lạc ở xã Quang Phú (trước đây gọi là Lộc Ninh). Đây là một xã ven biển, nơi người dân có truyền thống yêu nước và đấu tranh bất khuất.\nĐặc biệt, vào thời kỳ cả nước dốc sức kháng chiến chống Mỹ cứu nước, nhân dân Lộc Ninh luôn nêu cao tinh thần chiến đấu, một lòng hướng về Tổ quốc.\n\nTận dụng địa hình đặc biệt của vùng ven biển, ngay từ những năm đầu, quân ta đã chủ động xây dựng trận địa.\nĐến năm 1964, lực lượng ta đã hoàn thiện hệ thống phòng thủ pháo binh với các hầm pháo và lô cốt kiên cố, được xây dựng nửa chìm nửa nổi, có hướng ra biển để tiện quan sát và tấn công.\n\nHệ thống hầm hào được bố trí rải rác dọc theo bờ biển, trên các khu đất cao.\nTrong mỗi hầm pháo, có thêm ngách hầm phụ để bộ đội có thể trú ẩn an toàn khi cần thiết.\nBên cạnh mỗi hầm pháo là đài quan sát cao khoảng 2,5 m, có bậc thang lên xuống để chỉ huy bắn pháo.\n\nXen giữa các hầm pháo là hệ thống lô cốt, được xây theo hình tròn hoặc bán nguyệt, có cửa ra vào và lỗ thông hơi ở phía trên.\nXung quanh bố trí các lỗ châu mai để đặt súng chiến đấu.\nCác tuyến giao thông hào được đào sâu từ 1,5 – 2 m, hai bên có cọc tre và gỗ để gia cố, đảm bảo liên kết an toàn giữa các vị trí chiến đấu.\n\nTại trận địa pháo Quang Phú, quân và dân ta đã anh dũng chiến đấu, bắn rơi nhiều máy bay, thiêu rụi nhiều tàu chiến của địch.\nNhững chiến công ấy góp phần quan trọng vào thắng lợi chung của cuộc kháng chiến chống Mỹ, tạo đà cho ngày đất nước thống nhất Bắc – Nam.\n\nNgày nay, dù chiến tranh đã lùi xa, tiếng bom đạn đã im bặt, nhưng trận địa pháo Quang Phú (Quảng Bình) vẫn giữ nguyên hình hài ban đầu, là chứng tích lịch sử sống động, minh chứng rõ ràng cho tinh thần anh dũng, kiên cường của quân và dân Việt Nam trong thời kỳ kháng chiến.",
+        "history": "",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://baoquangbinh.vn/dataimages/201507/original/images582364_anh26.jpg"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.61192893981935,
+          17.508207401627775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cangnhale",
+        "name": "Cảng Nhật Lệ",
+        "summary": "Cửa Nhật Lệ là nơi dòng sông Nhật Lệ hiền hòa đổ ra biển Đông, thuộc địa phận phường Đồng Hải, thành phố Đồng Hới, tỉnh Quảng Bình.\nNơi đây không chỉ nổi tiếng với vẻ đẹp thiên nhiên sông – biển giao hòa mà còn là một địa danh gắn liền với nhiều sự kiện lịch sử – quân sự quan trọng của dân tộc Việt Nam qua các thời kỳ.\n\nThời phong kiến\nTheo sử sách, vùng cửa biển Nhật Lệ đã được biết đến từ rất sớm, từng có tên là Trú Nha hoặc Cửa Sài.\nDưới thời các chúa Nguyễn, nơi đây giữ vai trò phòng tuyến trọng yếu trong hệ thống phòng thủ của Đàng Trong.\nNăm 1631, danh tướng Đào Duy Từ đã đề xuất xây dựng Lũy Nhật Lệ, một trong ba phòng tuyến lớn của Đàng Trong, cùng với Lũy Thầy và Lũy Trường Dục.\nCửa biển Nhật Lệ khi đó trở thành “yết hầu” bảo vệ vùng đất Quảng Bình, là tuyến đầu ngăn chặn quân Trịnh từ phía Bắc.\n\nThời thuộc Pháp và kháng chiến chống Mỹ\nBước sang thế kỷ XX, Cửa Nhật Lệ tiếp tục đóng vai trò quan trọng trong lịch sử cách mạng Việt Nam.\nTrong hai cuộc kháng chiến chống Pháp và chống Mỹ, khu vực cảng Nhật Lệ là đầu mối giao thông chiến lược, nơi tiếp nhận, vận chuyển lương thực, vũ khí, hàng hóa phục vụ tiền tuyến miền Nam.\nDo vị trí quan trọng này, Nhật Lệ trở thành mục tiêu đánh phá ác liệt của không quân Mỹ.\nDù bị bom đạn tàn phá nặng nề, người dân Đồng Hới vẫn kiên cường bám đất, giữ vững tuyến vận chuyển, góp phần làm nên chiến thắng chung của dân tộc.",
+        "history": "Sau năm 1975 đến nay\nSau ngày đất nước thống nhất, khu vực Cửa Nhật Lệ dần được khôi phục, trở thành địa chỉ “đỏ” trong giáo dục truyền thống yêu nước.\nNăm 2025, Bia di tích Cảng Nhật Lệ được khánh thành tại Công viên Đồng Mỹ, thành phố Đồng Hới, đánh dấu nỗ lực bảo tồn và tôn vinh giá trị lịch sử của địa danh này.",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://i.ex-cdn.com/danviet.vn/files/content/2025/05/01/05534820250501_054511-0550.jpg",
+          "https://nqs.1cdn.vn/2025/05/10/static-images.vnncdn.net-vps_images_publish-000001-000003-2025-5-9-_w-dong-hoi-0739-142390.jpg"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.62360191345215,
+          17.47513114904698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nhatulaobao",
+        "name": "Nhà tù Lao Bảo",
+        "summary": "Nhà tù Lao Bảo (hay còn gọi là nhà đày Lao Bảo, thuộc khóm Duy Tân, thị trấn Lao Bảo, huyện Hướng Hóa, tỉnh Quảng Trị; nay là xã Lao Bảo, tỉnh Quảng Trị) là một trong năm nhà tù lớn nhất Đông Dương.\nĐây là nơi giam cầm nhiều nhà cách mạng cộng sản cốt cán, mà sau này trở thành lãnh đạo cao cấp của Nhà nước Cộng hòa Xã hội Chủ nghĩa Việt Nam như: nhà thơ Tố Hữu, đại tướng Nguyễn Chí Thanh, Trần Văn Cung, Lê Chưởng, Lê Thế Tiết...\nSau ngày thống nhất đất nước, nhà tù Lao Bảo được công nhận là “di tích lịch sử – văn hóa cấp quốc gia.”",
+        "history": "Nhà tù Lao Bảo được thực dân Pháp xây dựng vào năm 1908 nhằm phục vụ cho mục đích giam giữ các tù nhân chính trị, những người yêu nước và các chiến sĩ cách mạng chống lại sự thống trị của thực dân Pháp.\nĐây không chỉ là một nhà tù, mà còn là một công cụ chiến tranh tâm lý, nơi mà những kẻ cầm quyền muốn dập tắt tinh thần đấu tranh của người Việt Nam.\nNhà tù Lao Bảo là một trong những hệ thống nhà tù lớn nhất của khu vực Bắc Trung Bộ, được thiết kế với mục tiêu giam giữ những đối tượng mà thực dân Pháp coi là mối đe dọa lớn đến sự ổn định của chế độ thuộc địa.\n\nNhững chiến sĩ cách mạng từ khắp các vùng miền của đất nước — từ những người tham gia phong trào Cần Vương cho đến các chiến sĩ cộng sản đầu tiên — đã bị đưa vào đây. Họ không chỉ chịu sự giam cầm về thể xác mà còn phải đối mặt với những tra tấn tinh thần vô cùng tàn bạo, nhằm buộc họ phải từ bỏ lý tưởng và con đường cách mạng.\n\nCấu trúc nhà tù\n\nKhu nhà nhốt tù được chia thành nhiều khu nhỏ như:\n\nNhà bếp (bếp tù thường và bếp tù chính trị)\n\nTháp lọc nước\n\nNhà vệ sinh\n\nNăm dãy nhà giam gọi là các batimăng A, B, C, D, E\n\nBan đầu chỉ có hai dãy nhà giam gọi là lao A và lao B, được xây dựng năm 1908.\nHai dãy này là nhà tù cũ, bán kiên cố, làm bằng tre, gỗ, trát đất, lợp ngói, dài khoảng 15 m, cao 2 m, rộng 5 m.\nTường đất kín mít, trét toóc xi, chỉ có hai cửa lớn ra vào; khi đóng lại, bên trong tối om như hầm đá.\n\nXung quanh nhà có lan can và hành lang nối liền giữa hai lao A và B. Trong mỗi lao có hai dãy sàn gỗ cho tù nhân nằm, cuối căn có cùm lớn. Mỗi lao có thể giam giữ khoảng 60 tù nhân — họ có thể ngồi dậy nhưng không thể di chuyển hoặc đổi vị trí nằm.\n\nĐến năm 1931–1932, thực dân Pháp cho xây thêm hai dãy nhà mới gọi là lao C và lao D, có phần kiên cố hơn, với tường đá, mái tôn, sàn xi măng, bê tông cốt thép.\nNăm 1934 thì hoàn thành, mỗi nhà dài 30 m, rộng 6 m, giam giữ khoảng 180 tù nhân.\nKhu biệt giam có 13 buồng, mỗi buồng rộng 1 m, cao 2,14 m.\n\nDưới lao C có một nhà hầm (hầm E), là một căn hầm sâu dưới đất, gọi là ca-sô.\nTừ trần đến mặt đất chỉ khoảng 2 m, tường xi măng cốt thép dày 1 m, không có cửa sổ, chỉ có những lỗ nhỏ hình chữ nhật gắn song sắt dày.\nCửa hầm bằng sắt dày 0,4 m, song sắt to bằng ngón tay, đan dọc ngang.\nĐây là nơi biệt giam tù chính trị, giam trong điều kiện tối tăm, ẩm thấp, khắc nghiệt đến cùng cực.\n\nGiá trị hiện nay\n\nNgày nay, nhà tù Lao Bảo đã trở thành một di tích lịch sử quan trọng, thu hút rất nhiều khách du lịch trong và ngoài nước.\nĐây không chỉ là nơi để tham quan, mà còn là địa điểm tri ân, tưởng niệm những chiến sĩ cách mạng đã hy sinh vì độc lập dân tộc.\n\nCác hiện vật lịch sử, cùng những bức ảnh đen trắng ghi lại hình ảnh các chiến sĩ bị giam cầm trong điều kiện khắc nghiệt, vẫn được bảo tồn nguyên vẹn, trở thành chứng tích sống động của một thời kỳ đấu tranh bi hùng của dân tộc Việt Nam.",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://quangbinhtravel.vn/wp-content/uploads/2025/09/nha-tu-lao-bao.jpg",
+          "https://baoquangtri.vn/file/2c97e081942a2a4401942a2ce33c0003/082025/z6934706300333_53f3799dc6fc810fe39ac7f7a9fba1c6_20250822213118.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhkMYtKOdYsxKwYGbchHZGhdF9hdByXXeTrw&s"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.58738136291505,
+          16.609715640921934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "benphalongdai",
+        "name": "Bến phà Long Đại",
+        "summary": "•  Tên gọi: Bến phà Long Đại  \n•  Loại hình: Di tích lịch sử cách mạng  \n•  Địa điểm: xã Hiền Ninh, xã Xuân Ninh  \n•  Sự kiện/nhân vật: Những trận đánh trong năm 1968, gắn với Trung đoàn 249, Đại đội C16 Binh trạm 16 đơn vị anh hùng (Lữ đoàn 683)  \n•  Giá trị tiêu biểu: “Yết hầu” trên tuyến đường Hồ Chí Minh huyền thoại  \n•  Công nhận di tích lịch sử ngày 12/12/1986; xếp hạng di tích lịch sử Quốc gia đặc biệt ngày 9/12/2013\n",
+        "history": "Di tích lịch sử Bến phà Long Đại nằm ở Km 1004 + 810 trên đường Hồ Chí Minh nhánh Đông, thuộc địa phận thôn Long Đại, xã Hiền Ninh (bờ Bắc) và thôn Xuân Dục, xã Xuân Ninh (bờ Nam), huyện Quảng Ninh.\n\nTrong kháng chiến chống Mỹ, cứu nước, Bến phà Long Đại là địa bàn nằm trong vùng “cán xoong” của Quân khu IV, trở thành điểm “yết hầu”, “huyết mạch”, là cầu nối giao thông đặc biệt quan trọng trên tuyến đường 15, giữa hậu phương lớn miền Bắc với chiến trường miền Nam và nước bạn Lào, Campuchia.\n\nTrước năm 1965, Bến phà Long Đại do Ty Giao thông Vận tải Quảng Bình quản lý. Năm 1965, khi giặc Mỹ leo thang bắn phá miền Bắc, bến phà được giao cho Tỉnh đội Quảng Bình quản lý để phục vụ giao thông vận tải thời chiến. Chiến tranh ngày càng ác liệt, yêu cầu chi viện chiến trường ngày càng cao, tháng 8/1966, phà Long Đại được giao cho đơn vị Công binh C16, thuộc Binh trạm 16, Tổng cục Hậu cần Tiền phương quản lý.\n\nBến phà Long Đại là một trong những điểm vượt sông trọng yếu, ác liệt nhất trên tuyến đường Hồ Chí Minh lịch sử. Chính vì vậy, đế quốc Mỹ ngày đêm tập trung dội xuống nơi đây hàng trăm tấn bom đạn, hòng hủy diệt và “bóp nghẹt” nguồn lực từ hậu phương chi viện vào tiền tuyến. Bến phà Long Đại cùng với nhiều địa danh khác như: Mụ Dạ, Cổng Trời, Xuân Sơn, Phà Gianh, Quán Hàu... là những “túi bom”, “chảo lửa”.\n\nCó những thời điểm, trong một đêm địch đánh phá Long Đại, Quán Hàu từ 10 đến 30 lần. Trên hai bến phà, địch rải đầy các loại bom, trên sông rải thủy lôi dày đặc. Với quyết tâm thông phà, thông xe qua bến, Đại đội C16 phà Long Đại dùng phương tiện kỹ thuật phá bom từ trường, không ngại hy sinh, chiến sĩ lái ca nô chạy tốc độ cao lướt trên mặt nước kích cho bom nổ. Trong một lần trúng thủy lôi gần bờ, ca nô bị vỡ tan tành, chiến sĩ bị thương nặng.\n\nTrước tình hình địch đánh phá ác liệt, Tỉnh ủy Quảng Bình chủ trương “phát động toàn dân, huy động mọi lực lượng, bằng các biện pháp, kiên quyết đảm bảo giao thông vận tải trong suốt mọi tình huống”, với khẩu hiệu “Đường, ngầm, sông, bến phà là trận địa”.\n\nLúc này, việc vận chuyển khó khăn nhất là phải vượt qua thủy lôi, từ trường, pháo sáng và bom tọa độ của không quân Mỹ tại khu vực “tam giác lửa” Quán Hàu - Trúc Ly - Long Đại. Trước tình hình ấy, Trung đoàn 249 công binh đã tăng cường C1 công binh cùng C16 Binh trạm 16 bảo đảm giao thông tại trọng điểm phà Long Đại. Các tổ phá bom từ trường (TN) gồm những chiến sĩ vô cùng tháo vát, nhanh nhẹn, dũng cảm, không sợ hy sinh. Trên bến phà Long Đại, ca nô của hạ sĩ Nguyễn Xuân Toản đã phá 27 quả bom TN. Chiếc ca nô mang đầy thương tích ấy được đặt tên là “Bất Khuất”, sau này đã được đưa vào Bảo tàng Công binh.\n\nCác bến phà trong thời gian này là trọng điểm đánh phá ác liệt nhất của máy bay Mỹ. Để đảm bảo các xe đến bến phà “qua thật nhanh, tránh thật xa”, các cán bộ, chiến sĩ công binh C16 Binh trạm 16 và C1 chi viện của Trung đoàn 249 luôn bám trụ, sẵn sàng đối mặt với hiểm nguy, với cái chết mà không hề lùi bước.\nĐặc biệt, đêm 29/1/1968 (Mùng 1 Tết Mậu Thân), Trung đoàn 249 được lệnh triển khai cầu phao ở bến Long Đại khi địch tuyên bố ngừng ném bom, nhưng thực tế chúng không thực hiện mà vẫn ném bom các chiến sĩ công binh C1. Trung đoàn 249 đã sáng tạo, chuyển cầu phao thành phà, đảm bảo tiếp tục phục vụ vượt sông.\n\nTình hình ở chiến trường miền Nam đòi hỏi sự chi viện ngày càng lớn của miền Bắc. Nhận định tình hình, giặc Mỹ điên cuồng đánh phá ở các bến phà với mức độ ngày càng ác liệt, nhằm ngăn chặn sự chi viện từ miền Bắc vào. Trong đó, điểm ác liệt nhất là bến phà Long Đại — bom đạn Mỹ rung chuyển cả ngày lẫn đêm. Cụ thể, trong tháng 3/1968, địch đã đánh 38 lần, ném xuống 112 quả bom; trong tháng 4/1968, địch đã đánh 60 lần, ném xuống 348 quả bom. Do vậy, nơi đây còn được gọi là bến “long đầu”, là “cửa tử”.\n\nTrong những thời điểm đó, các cán bộ, chiến sĩ vẫn bám trụ địa bàn. Sau mỗi đợt địch ném bom, ta vừa cứu người, vừa cứu hàng hóa, khí tài, cứ thế, người này ngã, người khác thay thế, tiếp tục làm nhiệm vụ để đảm bảo “thông bến nối phà”, bảo đảm mạch máu giao thông. Bến phà Long Đại cùng với các bến Xuân Sơn, Phong Nha, Sông Gianh, Thác Cóc, bến Tiến,... là những nơi chứng kiến và ghi dấu những chiến công oanh liệt của Đại đội Công binh C16 Binh trạm 16 và C1 Công binh của Trung đoàn 249.\n\nNgày 01/11/1968, Tổng thống Giôn-xơn tuyên bố chấm dứt các cuộc ném bom bắn phá miền Bắc xã hội chủ nghĩa. Tuy nhiên, do vị trí là địa bàn cầu nối chiến lược giữa hậu phương lớn miền Bắc và tiền tuyến lớn miền Nam, tỉnh Quảng Bình cơ bản vẫn nằm trong trạng thái có chiến tranh.\nĐặc biệt, sau thất bại trên mặt trận Đường 9 - Nam Lào, thực hiện “Cuộc chiến tranh bóp nghẹt”, đế quốc Mỹ đã tăng cường các hoạt động trinh sát, đánh vào hành lang Đông Trường Sơn, các điểm vượt khẩu, tuyến vận tải và trận địa phòng không ở Quảng Bình.\n\nVới những đóng góp vào thắng lợi trong giai đoạn 1965–1969 của cuộc kháng chiến chống Mỹ, Đại đội Công binh C16 phà Long Đại vinh dự được Chủ tịch Hồ Chí Minh quyết định phong tặng danh hiệu Đơn vị Anh hùng Lực lượng Vũ trang Nhân dân ngày 18/6/1969.\n\n“Đại đội C16 làm nhiệm vụ trên bến phà Long Đại vẫn bảo đảm thông xe chi viện cho chiến trường. Vì bến phà là mạch máu lưu thông cho những đoàn xe ra trận, nên hàng ngàn tấn bom đạn đủ các loại của địch đã trút xuống đây, nhưng các chiến sĩ đã kiên cường bám sông, bám bến, hết lòng vì tiền tuyến, lập công tập thể, đoàn kết nội bộ, đoàn kết quân dân, phục vụ tốt, phá bom giỏi, phòng tránh tốt, bảo đảm thông phà trong hoàn cảnh hết sức gay go, ác liệt để phấn đấu hoàn thành xuất sắc mọi nhiệm vụ.”\n\nTrong những tháng cuối năm 1970, Bến phà Long Đại là một trong những điểm vượt sông ác liệt nhất của tuyến đường Hồ Chí Minh. Nơi đây, đế quốc Mỹ đã huy động cả lực lượng không quân và hải quân, dội xuống hàng ngàn tấn bom đạn, không những nhiều về số lượng mà còn nhiều về chủng loại vũ khí hiện đại, tối tân, nguy hiểm đều được chúng thử nghiệm như bom tia laze, bom từ trường, thủy lôi,… gây nhiều tổn thất và thiệt hại cho lực lượng của ta.\n\nTrước tình hình đó, để đảm bảo vận chuyển được liên tục, tránh những khi bị địch đánh phá, từ tháng 1/1971, ở khu vực Long Đại, ta chủ trương xây dựng thành hai bến phà là bến phà I (ở sát cầu Long Đại ngày nay) và bến phà II cách bến I khoảng 500m (ở hạ lưu sông Long Đại).\n\nTháng 6/1972, đế quốc Mỹ dùng máy bay B52 ném bom với quy mô và cường độ ngày càng tăng, tập trung vào khu vực Quảng Ninh, Lệ Thủy và Vĩnh Linh, nhằm phong tỏa các chốt trọng điểm ở Long Đại, Quán Hàu, Xuân Sơn, hòng chặn đứng tuyến chi viện của miền Bắc cho miền Nam.\nĐể khắc phục tình trạng đó, ta chủ trương mở thêm nhiều bến bãi, tăng phương tiện vận tải trên các bến vượt. Đồng thời, tiến hành mở thêm bến phà Long Đại - Đồng Tư.\n\nTừ tháng 5 đến tháng 12/1972, cuộc chiến tranh phá hoại của đế quốc Mỹ lên đến nấc thang cao nhất, mức độ khốc liệt, tàn bạo của kẻ thù lên tới đỉnh điểm. Cũng chính trong thời điểm thử thách quan trọng đó, chủ nghĩa anh hùng cách mạng và lòng dũng cảm vô song của cán bộ, chiến sĩ Đại đội Công binh C16 bến phà Long Đại phát huy hơn bao giờ hết.\nCác lực lượng làm nhiệm vụ ở bến phà Long Đại đã đoàn kết, phối hợp chặt chẽ với quân dân địa phương, hoàn thành xuất sắc nhiệm vụ phá thế phong tỏa của kẻ thù, đảm bảo lưu thông tuyến đường chi viện, với quyết tâm “Tất cả vì chiến trường miền Nam ruột thịt”.\n\nĐầu Xuân Quý Sửu năm 1973, đồng chí Lê Duẩn, người lãnh đạo cao nhất của Đảng ta lúc đó, vào thăm và chúc Tết bộ đội Trường Sơn. Sáng mồng 2 Tết, trước khi trở ra Hà Nội, đồng chí Lê Duẩn đã được đồng chí Đồng Sỹ Nguyên và đồng chí Đặng Tính đưa đến thăm cầu phao Long Đại do công binh Trường Sơn thi công dùng cho hai làn xe. Đoàn đến đúng lúc một đơn vị vận tải đang dàn đội hình để qua cầu, lễ xuất quân đầu xuân qua phà Long Đại diễn ra thật ấn tượng.\n\nSau Hiệp định Paris về việc lập lại hòa bình ở Việt Nam được ký kết ngày 27/1/1973, bến phà Long Đại tiếp tục hoàn thành xuất sắc nhiệm vụ, bảo đảm tuyến giao thông thông suốt, góp phần xứng đáng trên tuyến chi viện cho chiến trường miền Nam đến ngày thắng lợi cuối cùng.\nNăm 1973, Đại đội C16 được tặng thưởng Huân chương Chiến công.\n\nTrong 8 năm chống chiến tranh phá hoại (1965–1973), đến năm 1975 giải phóng miền Nam, thống nhất đất nước, với sứ mệnh đảm bảo tuyến giao thông chi viện cho chiến trường miền Nam, Bến phà Long Đại đã thực hiện hàng chục ngàn chuyến phà, vận chuyển hàng trăm ngàn tấn hàng hóa, hàng chục vạn lượt bộ đội, thanh niên xung phong và vũ khí trang bị, xe pháo, tên lửa,… vượt sông vào các mặt trận.\nĐặc biệt, đã chuyển một lượng vật chất và binh lực kịp thời phục vụ cho Chiến dịch Đường 9 trong cuộc Tổng tiến công Tết Mậu Thân (1968), Chiến dịch Đường 9 - Nam Lào Xuân 1971, Chiến dịch Tiến công mùa xuân 1972, và Chiến dịch Hồ Chí Minh năm 1975, giải phóng miền Nam, thống nhất Tổ quốc.\n\nKhi cầu Long Đại được xây dựng, nối đôi bờ sông Long Đại, cũng là lúc Bến phà Long Đại kết thúc nhiệm vụ và vai trò lịch sử của mình.\n\n“Nhìn nhịp cầu đường sắt Thống Nhất bắc qua sông Long Đại với chiều dài 178m, dài nhất Đông Nam Á những năm 70 của thế kỷ XX và cầu Long Đại Đông Trường Sơn chạy song hành với nhau như rồng lớn vượt sông, những người trải qua một thời bom đạn nơi đây và đồng bào huyện Quảng Ninh không khỏi bồi hồi nhớ lại những năm tháng chống Mỹ, cứu nước đã hằn sâu dấu tích.”\n\nNgày nay, trên Bến phà Long Đại năm xưa, một đài tưởng niệm liệt sĩ Trường Sơn đã được xây dựng để tri ân các anh hùng liệt sĩ đã anh dũng hy sinh trên tuyến đường Trường Sơn - đường Hồ Chí Minh nói chung, tại Bến phà Long Đại nói riêng, trong cuộc kháng chiến chống Mỹ, cứu nước.\nĐài tưởng niệm là nơi các cán bộ, chiến sĩ đã từng sống, chiến đấu, bảo vệ bến phà, khi trở lại thăm chiến trường xưa, thắp nén hương tưởng nhớ đồng đội.\nTrong mỗi người dân, khi đến đây thắp nén hương tưởng niệm, đều tự hào sâu sắc về những năm tháng hào hùng của các thế hệ cha anh đã chiến đấu anh dũng vì nền độc lập, tự do của dân tộc.\n\nDi tích Bến phà Long Đại được công nhận là di tích lịch sử theo Quyết định số 236/VH-QĐ, ngày 12/12/1986 của Bộ trưởng Bộ Văn hóa Thông tin.\nNgày 9/12/2013, Thủ tướng Chính phủ đã ký Quyết định số 2383/QĐ-TTg, xếp hạng Di tích Bến phà Long Đại là Di tích Quốc gia đặc biệt.",
+        "conservation_status": "good",
+        "image_urls": [
+          "https://api.sovaba.travel/uploads/Den_tuong_niem_ben_ben_pha_Long_Dai_163d4df74b.jpg",
+          "https://bazantravel.com/cdn/medias/uploads/30/30723-ben-pha-long-dai.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSybZIY8jI51yuDSQjblf2iyXsTiSIDdhDLvw&s"
+        ],
+        "conduct": {
+          "dos": [],
+          "donts": [],
+          "lawExcerpt": "",
+          "lawLink": ""
+        },
+        "type": "heritage_site",
+        "status_description": "",
+        "dos": [],
+        "donts": [],
+        "legal_excerpt": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.62411689758302,
+          17.324425801707516
+        ]
+      }
     }
   ]
 }
